@@ -9,6 +9,7 @@ const config = {
         zoomOut: 'zoomOut 1s ease-in',
         slideUp: 'slideUp 0.5s ease-out forwards',
         slideDown: 'slideDown 0.5s ease-out forwards',
+        infiniteScroll: 'infinite-scroll 25s linear infinite',
       },
       keyframes: {
         zoomIn: {
@@ -39,6 +40,10 @@ const config = {
             opacity: '1',
           },
         },
+        infiniteScroll: {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        }
       },
     },
     variants: {
