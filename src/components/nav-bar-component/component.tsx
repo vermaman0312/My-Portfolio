@@ -3,7 +3,7 @@ import React from "react";
 
 const CustomNavBarComponent = () => {
   return (
-    <div className="w-full flex items-center justify-center pt-6">
+    <div className="w-full flex items-center justify-center pt-6 pl-6 pr-6">
       <div className="p-3 border-2 border-[#DAC5A7] border-opacity-15 bg-[#DAC5A7] bg-opacity-5 flex flex-wrap items-center justify-center rounded-lg gap-6">
         <div className="flex items-center justify-center">
           <p className="text-xl text-[#DAC5A7] font-display">aman.</p>

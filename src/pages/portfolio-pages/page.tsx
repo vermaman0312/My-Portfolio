@@ -4,6 +4,7 @@ import "../../css/sliding_animation.css";
 import { MoveUpRight } from "lucide-react";
 import { skillsData } from "../../mock-data/skill-data";
 import { workData } from "../../mock-data/work-data";
+import CustomFooter from "../../components/footer-component/component";
 
 const PortfolioPage = () => {
   return (
@@ -11,7 +12,7 @@ const PortfolioPage = () => {
       <div>
         <CustomNavBarComponent />
       </div>
-      <div className="w-full h-full p-4 flex flex-col items-center justify-start pt-[20rem] gap-4 scroll-container">
+      <div className="w-full h-full flex flex-col items-center justify-start pt-[20rem] gap-4 scroll-container">
         <div className="w-full md:w-[25.5%]">
           <p className="text-5xl md:text-8xl text-[#DAC5A7] text-center">
             Web Designer & Developer
@@ -41,7 +42,7 @@ const PortfolioPage = () => {
         <div className="w-full p-4 flex flex-wrap items-center justify-center gap-4">
           {workData.map((work, index) => {
             return (
-              <div className="w-[30rem] border-2 border-[#DAC5A7] border-opacity-15 bg-[#DAC5A7] bg-opacity-5 rounded-lg p-10 animate-slideUp">
+              <div className="w-[30rem] border-2 border-[#DAC5A7] border-opacity-15 bg-[#DAC5A7] bg-opacity-5 rounded-lg p-10 animate-slideUp select-none">
                 <div>
                   <p className="text-xs font-display text-[#DAC5A7] text-opacity-60">
                     {`0${index + 1}`}
@@ -59,7 +60,7 @@ const PortfolioPage = () => {
                   </p>
                 </div>
                 <div className="mt-5 flex items-center gap-4">
-                  <button className="border-2 border-[#DAC5A7] border-opacity-15 bg-[#DAC5A7] bg-opacity-5 p-3 rounded-full">
+                  <button className="border-2 border-[#DAC5A7] border-opacity-15 bg-[#DAC5A7] bg-opacity-5 p-2 rounded-full">
                     <MoveUpRight className="text-[#DAC5A7] w-5 h-5" />
                   </button>
                   <p className="text-2xl font-light font-display text-[#DAC5A7] uppercase">
@@ -69,6 +70,11 @@ const PortfolioPage = () => {
               </div>
             );
           })}
+        </div>
+
+        {/* FOOTER */}
+        <div className="w-full pb-5">
+          <CustomFooter />
         </div>
       </div>
     </div>
