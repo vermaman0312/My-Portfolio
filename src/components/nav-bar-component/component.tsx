@@ -1,7 +1,19 @@
 import { ChevronDown } from "lucide-react";
 import React from "react";
 
-const CustomNavBarComponent = () => {
+type props = {
+  onClickService?: () => void;
+  onClickWork?: () => void;
+  onClickAbout?: () => void;
+  onClickBlog?: () => void;
+};
+
+const CustomNavBarComponent = ({
+  onClickService,
+  onClickWork,
+  onClickAbout,
+  onClickBlog,
+}: props) => {
   return (
     <div className="w-full flex items-center justify-center pt-6 pl-6 pr-6">
       <div className="p-3 border-2 border-[#DAC5A7] border-opacity-15 bg-[#DAC5A7] bg-opacity-5 flex flex-wrap items-center justify-center rounded-lg gap-6">
@@ -10,16 +22,28 @@ const CustomNavBarComponent = () => {
         </div>
 
         <div className="flex flex-wrap items-center gap-4">
-          <p className="text-sm text-[#DAC5A7] font-normal font-display">
+          <p
+            onClick={onClickService}
+            className="text-sm text-[#DAC5A7] font-normal font-display cursor-pointer select-none"
+          >
             SERVICES
           </p>
-          <p className="text-sm text-[#DAC5A7] font-normal font-display">
+          <p
+            onClick={onClickWork}
+            className="text-sm text-[#DAC5A7] font-normal font-display cursor-pointer select-none"
+          >
             WORK
           </p>
-          <p className="text-sm text-[#DAC5A7] font-normal font-display">
+          <p
+            onClick={onClickAbout}
+            className="text-sm text-[#DAC5A7] font-normal font-display cursor-pointer select-none"
+          >
             ABOUT
           </p>
-          <p className="text-sm text-[#DAC5A7] font-normal font-display">
+          <p
+            onClick={onClickBlog}
+            className="text-sm text-[#DAC5A7] font-normal font-display cursor-pointer select-none"
+          >
             BLOG
           </p>
           <p className="text-sm text-[#DAC5A7] font-normal font-display flex items-center gap-1">

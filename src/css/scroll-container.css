@@ -2,6 +2,10 @@
     width: 0px;
     background: transparent;
     transform: translateY(0);
+    scroll-behavior: smooth;
+    transition: transform 0.3s ease-in-out;
+    scroll-snap-type: y proximity;
+    will-change: scroll-position;
 }
 
 .scroll-container {
