@@ -29,7 +29,7 @@ export const CustomDialogBox = ({
           width && width
         } ${
           height && height
-        } rounded-xl animate-slideUp p-4 flex flex-col items-center justify-start`}
+        } rounded-xl animate-slideUp p-4 flex flex-col items-center justify-start z-50`}
       >
         {(title || onClose) && (
           <div className="w-full flex items-center justify-between gap-8">

@@ -1,7 +1,7 @@
-import React from "react";
 import { CustomDialogBox } from "../../../components/custom-dialogbox/page.component";
 import { CustomLabel } from "../../../components/custom-label/page.component";
 import { CustomButtonVariantOne } from "../../../components/custom-button/page.component";
+import "../../../css/scroll-container.css"
 
 type props = {
   isOpen: boolean;
@@ -40,7 +40,7 @@ const FooterGetInTouchFormPageComponent = ({ isOpen, onClose }: props) => {
           <CustomLabel className="font-display">Message:</CustomLabel>
           <textarea
             placeholder="write a message..."
-            className="border-2 border-[#716a60] outline-none text-xs placeholder:text-gray-700 placeholder:text-opacity-40 font-display bg-transparent w-full p-2 min-h-24 rounded-lg max-h-32"
+            className="border-2 border-[#716a60] outline-none text-xs placeholder:text-gray-700 placeholder:text-opacity-40 font-display bg-transparent w-full p-2 min-h-24 rounded-lg max-h-32 scroll-container"
           />
         </div>
         <div>
