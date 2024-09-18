@@ -1,0 +1,59 @@
+<div className="flex flex-col items-center justify-center gap-2">
+          <div className="bg-[#DAC5A7] bg-opacity-10 border-2 border-[#DAC5A7] border-opacity-15 p-2 rounded-xl w-full">
+            <CustomLabel className="text-xl font-display text-[#DAC5A7] font-semibold">
+              ReactJS & NextJS Development:
+            </CustomLabel>
+            <CustomLabel className="text-xs font-display text-[#DAC5A7] text-opacity-60 font-light ">
+              Developed and maintained scalable web applications using ReactJS
+              and NextJS, focusing on high performance and responsive design.
+            </CustomLabel>
+          </div>
+          <div className="bg-[#DAC5A7] bg-opacity-10 border-2 border-[#DAC5A7] border-opacity-15 p-2 rounded-xl w-full">
+            <CustomLabel className="text-xl font-display text-[#DAC5A7] font-semibold">
+              Node.js Backend Development:
+            </CustomLabel>
+            <CustomLabel className="text-xs font-display text-[#DAC5A7] text-opacity-60 font-light ">
+              Designed and implemented backend services with Node.js, ensuring
+              robust and efficient server-side operations.
+            </CustomLabel>
+          </div>
+          <div className="bg-[#DAC5A7] bg-opacity-10 border-2 border-[#DAC5A7] border-opacity-15 p-2 rounded-xl w-full">
+            <CustomLabel className="text-xl font-display text-[#DAC5A7] font-semibold">
+              Containerization & Deployment:
+            </CustomLabel>
+            <CustomLabel className="text-xs font-display text-[#DAC5A7] text-opacity-60 font-light ">
+              Utilized Docker for containerizing applications, improving
+              development workflows and deployment processes.
+            </CustomLabel>
+          </div>
+        </div>
+        <div className="flex flex-col items-center justify-center gap-2">
+          <div className="bg-[#DAC5A7] bg-opacity-10 border-2 border-[#DAC5A7] border-opacity-15 p-2 rounded-xl w-full">
+            <CustomLabel className="text-xl font-display text-[#DAC5A7] font-semibold">
+              Frontend Styling:
+            </CustomLabel>
+            <CustomLabel className="text-xs font-display text-[#DAC5A7] text-opacity-60 font-light ">
+              Applied modern styling techniques using HTML5, CSS, and Tailwind
+              CSS to create visually appealing and user-friendly interfaces.
+            </CustomLabel>
+          </div>
+          <div className="bg-[#DAC5A7] bg-opacity-10 border-2 border-[#DAC5A7] border-opacity-15 p-2 rounded-xl w-full">
+            <CustomLabel className="text-xl font-display text-[#DAC5A7] font-semibold">
+              Shell Scripting & Python:
+            </CustomLabel>
+            <CustomLabel className="text-xs font-display text-[#DAC5A7] text-opacity-60 font-light ">
+              Automated routine tasks and workflows with shell scripting,
+              enhancing productivity and efficiency.
+            </CustomLabel>
+          </div>
+          <div className="bg-[#DAC5A7] bg-opacity-10 border-2 border-[#DAC5A7] border-opacity-15 p-2 rounded-xl w-full">
+            <CustomLabel className="text-xl font-display text-[#DAC5A7] font-semibold">
+              Security & Systems:
+            </CustomLabel>
+            <CustomLabel className="text-xs font-display text-[#DAC5A7] text-opacity-60 font-light ">
+              Leveraged Kali Linux for security assessments and testing,
+              contributing to the overall security posture of applications and
+              systems.
+            </CustomLabel>
+          </div>
+        </div>

@@ -7,3 +7,121 @@
         transform: skew(45deg) rotate(360deg);
     }
 }
+
+
+
+
+/* WORK PAGE CSS */
+.container {
+    max-width: 640px;
+    margin: 2rem auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.step {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step:not(:last-of-type) {
+    margin-right: 2rem;
+}
+
+.step:nth-child(odd) {
+    flex-direction: column-reverse;
+    margin-top: 0.4rem;
+}
+
+.step:nth-child(odd) .circ::before,
+.step:nth-child(odd) .circ::after {
+    margin-top: 0;
+}
+
+.step:nth-child(odd) .half {
+    transform: rotate(180deg);
+    top: 0;
+}
+
+.text {
+    color: white;
+}
+
+.circ {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 6rem;
+    position: relative;
+}
+
+.circ::before,
+.circ::after {
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    background: white;
+    border-radius: 0.5rem;
+    top: 50%;
+    margin-top: 1px;
+    transform: translateY(-50%);
+}
+
+.circ::before {
+    left: -2.2rem;
+    /* $stick-length */
+}
+
+.circ::after {
+    right: -2.2rem;
+    /* $stick-length */
+}
+
+.half {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border: 2px solid white;
+    /* $line-width */
+    width: 6rem;
+    height: 3rem;
+    border-radius: 0 0 3rem 3rem;
+    border-top-width: 0;
+}
+
+.half::before,
+.half::after {
+    content: "";
+    width: 2.2rem;
+    /* $stick-length */
+    height: 2px;
+    /* $line-width */
+    background: white;
+    display: block;
+    position: absolute;
+    top: 0%;
+}
+
+.half::before {
+    right: 100%;
+}
+
+.half::after {
+    left: 100%;
+}
+
+.inner {
+    border-radius: 5rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    background: lightpink;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}

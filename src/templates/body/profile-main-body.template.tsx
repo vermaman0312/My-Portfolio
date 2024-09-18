@@ -10,15 +10,15 @@ const PortfolioProfileMainBodyPageTemplate = () => {
       <div className="md:w-[50%]">
         <div className="flex items-center justify-center">
           <div>
-            <p className="text-5xl md:text-4xl text-[#DAC5A7] text-center">
+            <p className="text-2xl md:text-4xl text-[#DAC5A7] text-center">
               Hi, I'm <span className="text-blue-500">Aman Verma</span>
             </p>
-            <p className="text-5xl md:text-7xl text-[#DAC5A7] text-center">
+            <p className="text-4xl md:text-7xl text-[#DAC5A7] text-center">
               Software Engineer
             </p>
           </div>
           <p
-            className="text-sm text-[#DAC5A7] text-center text-nowrap flex items-center gap-2"
+            className="text-xs text-[#DAC5A7] text-center text-nowrap flex items-center gap-2 md:mt-16"
             style={{ transform: "rotate(90deg)" }}
           >
             <span>Scroll-down</span>

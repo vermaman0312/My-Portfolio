@@ -49,12 +49,6 @@ const PortfolioHeaderPageTemplate = ({
           >
             Blog
           </CustomLabel>
-          <CustomLabel className="text-sm text-[#DAC5A7] font-normal font-display flex items-center gap-1 uppercase">
-            <span>Page</span>{" "}
-            <span>
-              <ChevronDown className="w-5 h-5" />
-            </span>
-          </CustomLabel>
         </div>
 
         <div>
