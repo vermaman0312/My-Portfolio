@@ -1,0 +1,22 @@
+.circle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    animation: shimmy 3s infinite;
+    animation-direction: alternate;
+    transform: rotateX(30deg);
+    perspective: 1000;
+    backface-visibility: hidden;
+}
+
+@keyframes shimmy {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(20px, 50px);
+    }
+}

@@ -1,17 +1,11 @@
 import React from "react";
 import redux_logo from "../assets/images/redux_logo.png";
+import "../../css/global.css";
 
 const PortfolioProfilePicturePageTemplate = () => {
   return (
-    <div
-      className="w-64 h-64 border-8 border-dashed flex items-center justify-center p-2 text-white rounded-full"
-      style={{
-        transform: "rotateX(45deg)",
-        backfaceVisibility: "hidden",
-        perspective: "1000px",
-      }}
-    >
-      <img
+    <div className="w-64 h-64 border-8 border-dashed flex items-center justify-center p-2 text-white rounded-full circle">
+      {/* <img
         src={redux_logo}
         alt=""
         style={{
@@ -20,7 +14,7 @@ const PortfolioProfilePicturePageTemplate = () => {
           position: "relative",
           zIndex: 1,
         }}
-      />
+      /> */}
     </div>
   );
 };
