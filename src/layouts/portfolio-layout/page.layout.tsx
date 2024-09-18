@@ -43,15 +43,6 @@ const PortfolioPageLayout = ({
         <div className="w-full mt-10">
           <PortfolioProfileMainBodyPageTemplate />
         </div>
-        <div
-          className="flex items-center justify-center gap-2 w-auto cursor-pointer"
-          style={{ transform: "rotate(90deg)" }}
-        >
-          <CustomLabel className="text-xs text-[#DAC5A7] text-opacity-60 text-center font-display">
-            Scrolldown
-          </CustomLabel>
-          <ArrowRight className="text-[#DAC5A7] w-4 h-4" />
-        </div>
         <div className="w-full mt-5">
           <PortfolioProfileSkillPageTemplate data={skillsData} />
         </div>

@@ -1,10 +1,27 @@
-import { CustomLabel } from "../../components/custom-label/page.component";
 import redux_logo from "../../assets/images/redux_logo.png";
-import { Edit, Trash } from "lucide-react";
 import "../../css/global.css";
+import {
+  ReactJSComponent,
+  NextJSComponent,
+  NodeJSComponent,
+  TypescriptComponent,
+  MongoDBComponent,
+  MernComponent,
+  ReduxComponent,
+  DockerComponent,
+} from "./profile-icon-list.component";
 
 const PortfolioProfilePicturePageTemplate = () => {
-  const components = [Edit, Trash, Edit, Trash, Edit, Trash, Edit, Trash, Edit];
+  const components = [
+    ReactJSComponent,
+    NextJSComponent,
+    NodeJSComponent,
+    TypescriptComponent,
+    MongoDBComponent,
+    MernComponent,
+    ReduxComponent,
+    DockerComponent,
+  ];
   const radius = 45;
   return (
     <div className="relative w-64 h-64 flex items-center justify-center">
@@ -31,14 +48,13 @@ const PortfolioProfilePicturePageTemplate = () => {
                   transform: "translate(-50%, -50%)",
                 }}
               >
-                <Component className="w-6 h-6 text-white" />
+                <Component />
               </div>
             );
           })}
         </div>
       </div>
       <div className="-mt-28 ml-5 z-50">
-        {/* <CustomLabel className="text-white">Aman</CustomLabel> */}
         <img src={redux_logo} alt="" className="w-full h-full" />
       </div>
     </div>
