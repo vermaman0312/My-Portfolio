@@ -1,9 +1,10 @@
 import React from "react";
 import PortfolioProfilePicturePageTemplate from "./profile-picture.template";
+import { ArrowRight } from "lucide-react";
 
 const PortfolioProfileMainBodyPageTemplate = () => {
   return (
-    <div className="w-full flex items-center flex-wrap justify-center gap-4 md:p-24">
+    <div className="w-full flex flex-col items-center flex-wrap justify-center gap-4 md:p-24">
       <div className="">
         <PortfolioProfilePicturePageTemplate />
       </div>
@@ -25,6 +26,15 @@ const PortfolioProfileMainBodyPageTemplate = () => {
             Premium web design, development, and SEO services to help your
             business stand out.
           </p>
+        </div>
+        <div
+          className="mt-32 flex items-center justify-center gap-2 w-auto"
+          style={{ transform: "rotate(90deg)" }}
+        >
+          <p className="text-xs text-[#DAC5A7] text-opacity-60 text-center font-display">
+            Scrolldown
+          </p>
+          <ArrowRight className="text-[#DAC5A7] w-4 h-4" />
         </div>
       </div>
     </div>

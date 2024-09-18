@@ -1,13 +1,13 @@
+import PortfolioProfileMainBodyPageTemplate from "../../templates/body/profile-main-body.template";
+import PortfolioProfileSkillPageTemplate from "../../templates/body/skill-list.template";
+import PortfolioWorkListPageTemplate from "../../templates/body/work-list.template";
+import PortfolioHeaderPageTemplate from "../../templates/header/page.template";
+import PortfolioFooterPageTemplate from "../../templates/footer/page.template";
+import { CustomSmoothScroll } from "../../utils/custom-smooth-scroll/custom-smooth-scrollable";
 import { skillsType } from "../../mock-data/skill-data";
 import { workDataType } from "../../mock-data/work-data";
 import "../../css/scroll-container.css";
 import "../../css/sliding_animation.css";
-import PortfolioProfileMainBodyPageTemplate from "../../templates/body/profile-main-body.template";
-import PortfolioProfileSkillPageTemplate from "../../templates/body/skill-list.template";
-import { CustomSmoothScroll } from "../../utils/custom-smooth-scroll/custom-smooth-scrollable";
-import PortfolioWorkListPageTemplate from "../../templates/body/work-list.template";
-import PortfolioHeaderPageTemplate from "../../templates/header/page.template";
-import PortfolioFooterPageTemplate from "../../templates/footer/page.template";
 
 type props = {
   setMenuOption?: (value: string) => void;
@@ -38,7 +38,7 @@ const PortfolioPageLayout = ({
         ref={scrollContainerRef}
         className="w-full h-full flex flex-col items-center justify-start gap-4 scroll-container"
       >
-        <div className="w-full">
+        <div className="w-full mt-10">
           <PortfolioProfileMainBodyPageTemplate />
         </div>
         <div className="w-full">
