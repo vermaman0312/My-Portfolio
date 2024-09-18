@@ -12,7 +12,7 @@ const PortfolioProfilePicturePageTemplate = () => {
         className="absolute inset-0 rounded-full"
         style={{
           borderColor: "#DAC5A7",
-          animation: "spinBorder 200s linear infinite",
+          animation: "spinBorder 300s linear infinite",
           transform: "skew(45deg)",
         }}
       >

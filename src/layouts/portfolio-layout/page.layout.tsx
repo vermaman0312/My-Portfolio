@@ -8,6 +8,8 @@ import { skillsType } from "../../mock-data/skill-data";
 import { workDataType } from "../../mock-data/work-data";
 import "../../css/scroll-container.css";
 import "../../css/sliding_animation.css";
+import { ArrowRight } from "lucide-react";
+import { CustomLabel } from "../../components/custom-label/page.component";
 
 type props = {
   setMenuOption?: (value: string) => void;
@@ -41,7 +43,16 @@ const PortfolioPageLayout = ({
         <div className="w-full mt-10">
           <PortfolioProfileMainBodyPageTemplate />
         </div>
-        <div className="w-full">
+        <div
+          className="flex items-center justify-center gap-2 w-auto cursor-pointer"
+          style={{ transform: "rotate(90deg)" }}
+        >
+          <CustomLabel className="text-xs text-[#DAC5A7] text-opacity-60 text-center font-display">
+            Scrolldown
+          </CustomLabel>
+          <ArrowRight className="text-[#DAC5A7] w-4 h-4" />
+        </div>
+        <div className="w-full mt-5">
           <PortfolioProfileSkillPageTemplate data={skillsData} />
         </div>
         <div>
