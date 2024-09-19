@@ -47,8 +47,9 @@ const PortfolioProfileMainBodyPageTemplate = () => {
           </div>
           <div>
             <p className="text-xs text-[#DAC5A7] text-opacity-60 text-center font-display">
-              Premium web design, development, and SEO services to help your
-              business stand out.
+              I'm proficient in React JS, Next JS, Node JS, Express JS, MongoDB,
+              Electron JS, and TypeScript for web and mobile app development,
+              with a strong interest in IoT and cybersecurity.
             </p>
           </div>
         </div>

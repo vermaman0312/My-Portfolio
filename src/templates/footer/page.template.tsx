@@ -30,7 +30,7 @@ const PortfolioFooterPageTemplate = () => {
       <div>
         <FooterBodyPageComponent
           title="Project in mind?"
-          headingTitle="Let's make website shine"
+          headingTitle="Let's get in touch"
           description="Premium web design, webflow, and SEO services to help your business
         stand out."
           isLoading={isLoading}
