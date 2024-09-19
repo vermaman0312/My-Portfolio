@@ -5,7 +5,7 @@ import PortfolioHeaderPageTemplate from "../../templates/header/page.template";
 import PortfolioFooterPageTemplate from "../../templates/footer/page.template";
 import { CustomSmoothScroll } from "../../utils/custom-smooth-scroll/custom-smooth-scrollable";
 import { skillsType } from "../../mock-data/skill-data";
-import { workDataType } from "../../mock-data/work-data";
+import { workDataType } from "../../mock-data/services-data";
 import "../../css/scroll-container.css";
 import "../../css/sliding_animation.css";
 import PortfolioWorkListPageTemplate from "../../templates/body/work-list.template";

@@ -13,7 +13,7 @@
 
 /* WORK PAGE CSS */
 .container {
-    max-width: 640px;
+    max-width: 740px;
     margin: 2rem auto;
     display: flex;
     align-items: flex-start;
@@ -47,7 +47,7 @@
 }
 
 .text {
-    color: white;
+    color: #DAC5A7;
 }
 
 .circ {
@@ -63,7 +63,7 @@
     width: 0.5rem;
     height: 0.5rem;
     position: absolute;
-    background: white;
+    background: #DAC5A7;
     border-radius: 0.5rem;
     top: 50%;
     margin-top: 1px;
@@ -84,7 +84,7 @@
     position: absolute;
     top: 50%;
     left: 0;
-    border: 2px solid white;
+    border: 2px solid #DAC5A7;
     /* $line-width */
     width: 6rem;
     height: 3rem;
@@ -99,7 +99,8 @@
     /* $stick-length */
     height: 2px;
     /* $line-width */
-    background: white;
+    background: #DAC5A7;
+    fill-opacity: 60;
     display: block;
     position: absolute;
     top: 0%;
@@ -120,7 +121,7 @@
     left: 0.5rem;
     right: 0.5rem;
     bottom: 0.5rem;
-    background: lightpink;
+    background: #DAC5A7;
     display: flex;
     justify-content: center;
     place-items: center;

@@ -12,6 +12,10 @@ import tailwind_logo from "../assets/images/tailwind_logo.png";
 import python_logo from "../assets/images/python_logo.png";
 import shellscript_logo from "../assets/images/shellscript_logo.png";
 import kalilinux_logo from "../assets/images/kalilinux_logo.png";
+import github_logo from "../assets/images/gtihub_logo.png";
+import jira_logo from "../assets/images/jira_logo.png";
+import viteJS_logo from "../assets/images/viteJS_logo.png";
+import vueJS_logo from "../assets/images/vueJS_logo.png";
 
 export interface skillsType {
   title: string;
@@ -22,6 +26,14 @@ export const skillsData: skillsType[] = [
   {
     title: "React JS",
     logo: react_logo,
+  },
+  {
+    title: "Vite",
+    logo: viteJS_logo,
+  },
+  {
+    title: "Vue JS",
+    logo: vueJS_logo,
   },
   {
     title: "Next JS",
@@ -74,5 +86,13 @@ export const skillsData: skillsType[] = [
   {
     title: "Kali Linux",
     logo: kalilinux_logo,
+  },
+  {
+    title: "Github",
+    logo: github_logo,
+  },
+  {
+    title: "Agile Jira",
+    logo: jira_logo,
   },
 ];

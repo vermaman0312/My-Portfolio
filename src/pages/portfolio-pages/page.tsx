@@ -1,5 +1,5 @@
 import { skillsData } from "../../mock-data/skill-data";
-import { workData } from "../../mock-data/work-data";
+import { workData } from "../../mock-data/services-data";
 import { useState } from "react";
 import PortfolioPageLayout from "../../layouts/portfolio-layout/page.layout";
 

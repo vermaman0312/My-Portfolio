@@ -17,7 +17,7 @@ const PortfolioProfileMainBodyPageTemplate = () => {
               Software Engineer
             </p>
           </div>
-          <p
+          {/* <p
             className="text-xs text-[#DAC5A7] text-center text-nowrap flex items-center gap-2 md:mt-16"
             style={{ transform: "rotate(90deg)" }}
           >
@@ -25,7 +25,7 @@ const PortfolioProfileMainBodyPageTemplate = () => {
             <span>
               <ArrowRight className="w-5 h-5" />
             </span>
-          </p>
+          </p> */}
         </div>
 
         <div className="mt-3 p-4 flex items-center flex-wrap justify-center gap-4">
