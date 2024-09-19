@@ -43,11 +43,19 @@ const config = {
         infiniteScroll: {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-100%)' },
+        },
+        meteor: {
+          "0%": { transform: "rotate(215deg) translateX(0)", opacity: "1" },
+          "70%": { opacity: "1" },
+          "100%": {
+            transform: "rotate(215deg) translateX(-500px)",
+            opacity: "0",
+          },
         }
       },
     },
     variants: {
-      animation: ['responsive', 'motion-safe', 'motion-reduce'],
+      animation: ['responsive', 'motion-safe', 'motion-reduce', { 'meteor': "meteor 5s linear infinite" }],
     },
     fontFamily: {
       'sans': ['ui-sans-serif', 'system-ui',],
