@@ -26,16 +26,22 @@ const PortfolioHeaderPageTemplate = ({
 
         <div className="flex flex-wrap items-center gap-4">
           <CustomLabel
-            onClick={() => onClickService && onClickService("services")}
+            onClick={() => onClickService && onClickService("servicesWork")}
             className="text-sm text-[#DAC5A7] font-normal font-display cursor-pointer select-none uppercase"
           >
-            Services
+            Services & Work
           </CustomLabel>
           <CustomLabel
-            onClick={() => onClickWork && onClickWork("work")}
+            onClick={() => onClickBlog && onClickBlog("blog")}
             className="text-sm text-[#DAC5A7] font-normal font-display cursor-pointer select-none uppercase"
           >
-            Work
+            Blog
+          </CustomLabel>
+          <CustomLabel
+            onClick={() => onClickAbout && onClickAbout("technology")}
+            className="text-sm text-[#DAC5A7] font-normal font-display cursor-pointer select-none uppercase"
+          >
+            Technologies
           </CustomLabel>
           <CustomLabel
             onClick={() => onClickAbout && onClickAbout("about")}
@@ -44,17 +50,17 @@ const PortfolioHeaderPageTemplate = ({
             About
           </CustomLabel>
           <CustomLabel
-            onClick={() => onClickBlog && onClickBlog("blog")}
+            onClick={() => onClickBlog && onClickBlog("contact")}
             className="text-sm text-[#DAC5A7] font-normal font-display cursor-pointer select-none uppercase"
           >
-            Blog
+            Contact
           </CustomLabel>
         </div>
 
         <div>
           <CustomButtonVariantOne
             onClick={() => alert("lets talk")}
-            className="bg-[#DAC5A7] p-2 rounded-lg text-xs font-normal font-display"
+            className="bg-[#DAC5A7] p-2 rounded-lg text-xs font-normal font-display w-32"
           >
             LET'S TALK
           </CustomButtonVariantOne>

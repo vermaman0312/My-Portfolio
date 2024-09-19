@@ -1,6 +1,6 @@
 import PortfolioProfileMainBodyPageTemplate from "../../templates/body/profile-main-body.template";
 import PortfolioProfileSkillPageTemplate from "../../templates/body/skill-list.template";
-import PortfolioServicesListPageTemplate from "../../templates/body/services-list.template";
+import PortfolioServicesWorkListPageTemplate from "../../templates/body/services-work-list.template";
 import PortfolioHeaderPageTemplate from "../../templates/header/page.template";
 import PortfolioFooterPageTemplate from "../../templates/footer/page.template";
 import { CustomSmoothScroll } from "../../utils/custom-smooth-scroll/custom-smooth-scrollable";
@@ -8,7 +8,6 @@ import { skillsType } from "../../mock-data/skill-data";
 import { workDataType } from "../../mock-data/services-data";
 import "../../css/scroll-container.css";
 import "../../css/sliding_animation.css";
-import PortfolioWorkListPageTemplate from "../../templates/body/work-list.template";
 
 type props = {
   setMenuOption?: (value: string) => void;
@@ -46,10 +45,7 @@ const PortfolioPageLayout = ({
           <PortfolioProfileSkillPageTemplate data={skillsData} />
         </div>
         <div className="w-full">
-          <PortfolioServicesListPageTemplate data={workData} />
-        </div>
-        <div className="w-full">
-          <PortfolioWorkListPageTemplate />
+          <PortfolioServicesWorkListPageTemplate data={workData} />
         </div>
         <div className="w-full">
           <PortfolioFooterPageTemplate />
