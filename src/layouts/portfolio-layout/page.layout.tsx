@@ -8,6 +8,7 @@ import { skillsType } from "../../mock-data/skill-data";
 import { workDataType } from "../../mock-data/services-data";
 import "../../css/scroll-container.css";
 import "../../css/sliding_animation.css";
+import PortfolioBlogListPageTemplate from "../../templates/body/blog-list.template";
 
 type props = {
   setMenuOption?: (value: string) => void;
@@ -18,20 +19,20 @@ type props = {
 
 const PortfolioPageLayout = ({
   setMenuOption,
+  menuOption,
   skillsData,
   workData,
 }: props) => {
   const scrollContainerRef = CustomSmoothScroll();
+
+  console.log("menuOption", menuOption);
 
   return (
     <div className="w-full h-full flex flex-col items-center justify-start">
       <div className="w-full">
         <PortfolioHeaderPageTemplate
           title="aman."
-          onClickService={(value) => setMenuOption && setMenuOption(value)}
-          onClickWork={(value) => setMenuOption && setMenuOption(value)}
-          onClickAbout={(value) => setMenuOption && setMenuOption(value)}
-          onClickBlog={(value) => setMenuOption && setMenuOption(value)}
+          onClick={(value) => setMenuOption && setMenuOption(value)}
         />
       </div>
       <div
@@ -46,6 +47,9 @@ const PortfolioPageLayout = ({
         </div>
         <div className="w-full">
           <PortfolioServicesWorkListPageTemplate data={workData} />
+        </div>
+        <div className="w-full">
+          <PortfolioBlogListPageTemplate />
         </div>
         <div className="w-full">
           <PortfolioFooterPageTemplate />

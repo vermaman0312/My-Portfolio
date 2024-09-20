@@ -4,19 +4,10 @@ import { CustomButtonVariantOne } from "../../components/custom-button/page.comp
 
 type props = {
   title?: string;
-  onClickService?: (value: string) => void;
-  onClickWork?: (value: string) => void;
-  onClickAbout?: (value: string) => void;
-  onClickBlog?: (value: string) => void;
+  onClick?: (value: string) => void;
 };
 
-const PortfolioHeaderPageTemplate = ({
-  title,
-  onClickService,
-  onClickWork,
-  onClickAbout,
-  onClickBlog,
-}: props) => {
+const PortfolioHeaderPageTemplate = ({ title, onClick }: props) => {
   return (
     <div className="w-full flex items-center justify-center pt-6 pl-6 pr-6">
       <div className="p-3 border-2 border-[#DAC5A7] border-opacity-15 bg-[#DAC5A7] bg-opacity-5 flex flex-wrap items-center justify-center rounded-lg gap-6">
@@ -26,31 +17,37 @@ const PortfolioHeaderPageTemplate = ({
 
         <div className="flex flex-wrap items-center gap-4">
           <CustomLabel
-            onClick={() => onClickService && onClickService("servicesWork")}
+            onClick={() => onClick && onClick("servicesWork")}
             className="text-sm text-[#DAC5A7] font-normal font-display cursor-pointer select-none uppercase"
           >
             Services & Work
           </CustomLabel>
           <CustomLabel
-            onClick={() => onClickBlog && onClickBlog("blog")}
+            onClick={() => onClick && onClick("blog")}
             className="text-sm text-[#DAC5A7] font-normal font-display cursor-pointer select-none uppercase"
           >
             Blog
           </CustomLabel>
           <CustomLabel
-            onClick={() => onClickAbout && onClickAbout("technology")}
+            onClick={() => onClick && onClick("technology")}
             className="text-sm text-[#DAC5A7] font-normal font-display cursor-pointer select-none uppercase"
           >
             Technologies
           </CustomLabel>
           <CustomLabel
-            onClick={() => onClickAbout && onClickAbout("about")}
+            onClick={() => onClick && onClick("project")}
+            className="text-sm text-[#DAC5A7] font-normal font-display cursor-pointer select-none uppercase"
+          >
+            Projects
+          </CustomLabel>
+          <CustomLabel
+            onClick={() => onClick && onClick("about")}
             className="text-sm text-[#DAC5A7] font-normal font-display cursor-pointer select-none uppercase"
           >
             About
           </CustomLabel>
           <CustomLabel
-            onClick={() => onClickBlog && onClickBlog("contact")}
+            onClick={() => onClick && onClick("contact")}
             className="text-sm text-[#DAC5A7] font-normal font-display cursor-pointer select-none uppercase"
           >
             Contact
