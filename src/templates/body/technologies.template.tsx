@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { CustomLabel } from "../../components/custom-label/page.component";
 import { technologyType } from "../../mock-data/technologies.llist";
 import {
@@ -7,12 +7,23 @@ import {
   CardItem,
 } from "../../components/3d-card/3d-card";
 import { Link } from "react-router-dom";
+import { CustomButtonVariantOne } from "../../components/custom-button/page.component";
+import { ArrowRight } from "lucide-react";
 
 type props = {
   data: Array<technologyType>;
 };
 
 const PortfolioTechnologyPageTemplate = ({ data }: props) => {
+  const [showAll, setShowAll] = useState<boolean>(false);
+
+  const toggleShowAll = () => {
+    setShowAll((prev) => !prev);
+  };
+
+  // Determine the number of items to display
+  const displayedData = showAll ? data : data.slice(0, 6);
+
   return (
     <div className="flex flex-col items-center justify-center">
       <div>
@@ -26,7 +37,7 @@ const PortfolioTechnologyPageTemplate = ({ data }: props) => {
       </div>
 
       <div className="w-full flex flex-wrap items-center justify-center p-4 gap-4">
-        {data.map((technology, index) => {
+        {displayedData.map((technology, index) => {
           return (
             <div>
               <CardContainer className="inter-var h-[40rem] border-2 border-[#DAC5A7] border-opacity-15 bg-[#DAC5A7] bg-opacity-5 rounded-xl p-4">
@@ -79,6 +90,18 @@ const PortfolioTechnologyPageTemplate = ({ data }: props) => {
             </div>
           );
         })}
+      </div>
+
+      <div className="w-full flex items-center justify-end md:pr-60">
+        <CustomButtonVariantOne
+          onClick={toggleShowAll}
+          className="border-2 text-[#DAC5A7] text-opacity-60 border-[#DAC5A7] border-opacity-60 p-2 text-xs font-display rounded-lg flex items-center justify-center gap-2"
+        >
+          <span>{showAll ? "Hide Technologies" : "More Technologies"}</span>
+          <span>
+            <ArrowRight className="w-5 h-5" />
+          </span>
+        </CustomButtonVariantOne>
       </div>
     </div>
   );

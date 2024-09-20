@@ -1,6 +1,7 @@
 import react_logo from "../assets/images/react_logo.png";
 import next_logo from "../assets/images/next_logo.png";
 import redux_logo from "../assets/images/redux_logo.png";
+import typescript_logo from "../assets/images/typescript_logo.png";
 
 export interface technologyType {
   technologyId: string;
@@ -36,6 +37,136 @@ export const technologiesData: technologyType[] = [
     technologyId: "003",
     technologyName: "Redux",
     technologyImage: redux_logo,
+    technologyDescription:
+      "Redux is a state management library for JavaScript applications, commonly used with React. It provides a centralized store for managing and updating application state predictably across components.",
+    technologyContent:
+      "I have experience working with Redux for state management, effectively managing complex application state in a predictable and scalable manner. I am skilled in setting up and integrating Redux with React to handle data flows across components.",
+    technologyLink: "https://redux.js.org/",
+  },
+  {
+    technologyId: "004",
+    technologyName: "Typescript",
+    technologyImage: typescript_logo,
+    technologyDescription:
+      "Redux is a state management library for JavaScript applications, commonly used with React. It provides a centralized store for managing and updating application state predictably across components.",
+    technologyContent:
+      "I have experience working with Redux for state management, effectively managing complex application state in a predictable and scalable manner. I am skilled in setting up and integrating Redux with React to handle data flows across components.",
+    technologyLink: "https://redux.js.org/",
+  },
+  {
+    technologyId: "004",
+    technologyName: "Node JS",
+    technologyImage: typescript_logo,
+    technologyDescription:
+      "Redux is a state management library for JavaScript applications, commonly used with React. It provides a centralized store for managing and updating application state predictably across components.",
+    technologyContent:
+      "I have experience working with Redux for state management, effectively managing complex application state in a predictable and scalable manner. I am skilled in setting up and integrating Redux with React to handle data flows across components.",
+    technologyLink: "https://redux.js.org/",
+  },
+  {
+    technologyId: "004",
+    technologyName: "Node JS",
+    technologyImage: typescript_logo,
+    technologyDescription:
+      "Redux is a state management library for JavaScript applications, commonly used with React. It provides a centralized store for managing and updating application state predictably across components.",
+    technologyContent:
+      "I have experience working with Redux for state management, effectively managing complex application state in a predictable and scalable manner. I am skilled in setting up and integrating Redux with React to handle data flows across components.",
+    technologyLink: "https://redux.js.org/",
+  },
+  {
+    technologyId: "004",
+    technologyName: "Node JS",
+    technologyImage: typescript_logo,
+    technologyDescription:
+      "Redux is a state management library for JavaScript applications, commonly used with React. It provides a centralized store for managing and updating application state predictably across components.",
+    technologyContent:
+      "I have experience working with Redux for state management, effectively managing complex application state in a predictable and scalable manner. I am skilled in setting up and integrating Redux with React to handle data flows across components.",
+    technologyLink: "https://redux.js.org/",
+  },
+  {
+    technologyId: "004",
+    technologyName: "Node JS",
+    technologyImage: typescript_logo,
+    technologyDescription:
+      "Redux is a state management library for JavaScript applications, commonly used with React. It provides a centralized store for managing and updating application state predictably across components.",
+    technologyContent:
+      "I have experience working with Redux for state management, effectively managing complex application state in a predictable and scalable manner. I am skilled in setting up and integrating Redux with React to handle data flows across components.",
+    technologyLink: "https://redux.js.org/",
+  },
+  {
+    technologyId: "004",
+    technologyName: "Node JS",
+    technologyImage: typescript_logo,
+    technologyDescription:
+      "Redux is a state management library for JavaScript applications, commonly used with React. It provides a centralized store for managing and updating application state predictably across components.",
+    technologyContent:
+      "I have experience working with Redux for state management, effectively managing complex application state in a predictable and scalable manner. I am skilled in setting up and integrating Redux with React to handle data flows across components.",
+    technologyLink: "https://redux.js.org/",
+  },
+  {
+    technologyId: "004",
+    technologyName: "Node JS",
+    technologyImage: typescript_logo,
+    technologyDescription:
+      "Redux is a state management library for JavaScript applications, commonly used with React. It provides a centralized store for managing and updating application state predictably across components.",
+    technologyContent:
+      "I have experience working with Redux for state management, effectively managing complex application state in a predictable and scalable manner. I am skilled in setting up and integrating Redux with React to handle data flows across components.",
+    technologyLink: "https://redux.js.org/",
+  },
+  {
+    technologyId: "004",
+    technologyName: "Node JS",
+    technologyImage: typescript_logo,
+    technologyDescription:
+      "Redux is a state management library for JavaScript applications, commonly used with React. It provides a centralized store for managing and updating application state predictably across components.",
+    technologyContent:
+      "I have experience working with Redux for state management, effectively managing complex application state in a predictable and scalable manner. I am skilled in setting up and integrating Redux with React to handle data flows across components.",
+    technologyLink: "https://redux.js.org/",
+  },
+  {
+    technologyId: "004",
+    technologyName: "Node JS",
+    technologyImage: typescript_logo,
+    technologyDescription:
+      "Redux is a state management library for JavaScript applications, commonly used with React. It provides a centralized store for managing and updating application state predictably across components.",
+    technologyContent:
+      "I have experience working with Redux for state management, effectively managing complex application state in a predictable and scalable manner. I am skilled in setting up and integrating Redux with React to handle data flows across components.",
+    technologyLink: "https://redux.js.org/",
+  },
+  {
+    technologyId: "004",
+    technologyName: "Node JS",
+    technologyImage: typescript_logo,
+    technologyDescription:
+      "Redux is a state management library for JavaScript applications, commonly used with React. It provides a centralized store for managing and updating application state predictably across components.",
+    technologyContent:
+      "I have experience working with Redux for state management, effectively managing complex application state in a predictable and scalable manner. I am skilled in setting up and integrating Redux with React to handle data flows across components.",
+    technologyLink: "https://redux.js.org/",
+  },
+  {
+    technologyId: "004",
+    technologyName: "Node JS",
+    technologyImage: typescript_logo,
+    technologyDescription:
+      "Redux is a state management library for JavaScript applications, commonly used with React. It provides a centralized store for managing and updating application state predictably across components.",
+    technologyContent:
+      "I have experience working with Redux for state management, effectively managing complex application state in a predictable and scalable manner. I am skilled in setting up and integrating Redux with React to handle data flows across components.",
+    technologyLink: "https://redux.js.org/",
+  },
+  {
+    technologyId: "004",
+    technologyName: "Node JS",
+    technologyImage: typescript_logo,
+    technologyDescription:
+      "Redux is a state management library for JavaScript applications, commonly used with React. It provides a centralized store for managing and updating application state predictably across components.",
+    technologyContent:
+      "I have experience working with Redux for state management, effectively managing complex application state in a predictable and scalable manner. I am skilled in setting up and integrating Redux with React to handle data flows across components.",
+    technologyLink: "https://redux.js.org/",
+  },
+  {
+    technologyId: "004",
+    technologyName: "Node JS",
+    technologyImage: typescript_logo,
     technologyDescription:
       "Redux is a state management library for JavaScript applications, commonly used with React. It provides a centralized store for managing and updating application state predictably across components.",
     technologyContent:
