@@ -56,7 +56,7 @@ const PortfolioTechnologyPageTemplate = ({ data }: props) => {
                   </CardItem>
                   <CardItem
                     as="p"
-                    translateZ="70"
+                    translateZ="80"
                     className="text-[#DAC5A7] text-opacity-60 text-xs font-display font-light max-w-sm mt-2"
                   >
                     {technology.technologyContent}
@@ -64,12 +64,14 @@ const PortfolioTechnologyPageTemplate = ({ data }: props) => {
                   <div className="flex justify-between items-center mt-10">
                     <CardItem
                       translateZ={120}
-                      as={Link as React.ElementType}
+                      as="p"
                       href={technology.technologyLink}
                       target="__blank"
-                      className="rounded-xl text-xs font-display font-normal bg-[#DAC5A7] p-4"
+                      className="rounded-xl text-xs font-display font-normal bg-[#DAC5A7] p-4 cursor-pointer"
                     >
-                      Try now →
+                      <Link to={technology.technologyLink} target="_">
+                        Go to official page
+                      </Link>
                     </CardItem>
                   </div>
                 </CardBody>
