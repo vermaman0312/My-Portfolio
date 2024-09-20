@@ -1,5 +1,4 @@
 import { CustomLabel } from "../../components/custom-label/page.component";
-import { ChevronDown } from "lucide-react";
 import { CustomButtonVariantOne } from "../../components/custom-button/page.component";
 
 type props = {
@@ -21,12 +20,6 @@ const PortfolioHeaderPageTemplate = ({ title, onClick }: props) => {
             className="text-sm text-[#DAC5A7] font-normal font-display cursor-pointer select-none uppercase"
           >
             Services & Work
-          </CustomLabel>
-          <CustomLabel
-            onClick={() => onClick && onClick("blog")}
-            className="text-sm text-[#DAC5A7] font-normal font-display cursor-pointer select-none uppercase"
-          >
-            Blog
           </CustomLabel>
           <CustomLabel
             onClick={() => onClick && onClick("technology")}

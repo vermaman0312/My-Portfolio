@@ -8,7 +8,8 @@ import { skillsType } from "../../mock-data/skill-data";
 import { workDataType } from "../../mock-data/services-data";
 import "../../css/scroll-container.css";
 import "../../css/sliding_animation.css";
-import PortfolioBlogListPageTemplate from "../../templates/body/blog-list.template";
+import PortfolioTechnologyPageTemplate from "../../templates/body/technologies.template";
+import { technologiesData } from "../../mock-data/technologies.llist";
 
 type props = {
   setMenuOption?: (value: string) => void;
@@ -49,7 +50,7 @@ const PortfolioPageLayout = ({
           <PortfolioServicesWorkListPageTemplate data={workData} />
         </div>
         <div className="w-full">
-          <PortfolioBlogListPageTemplate />
+          <PortfolioTechnologyPageTemplate data={technologiesData} />
         </div>
         <div className="w-full">
           <PortfolioFooterPageTemplate />

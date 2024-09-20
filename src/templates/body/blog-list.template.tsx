@@ -6,8 +6,14 @@ import {
   CardItem,
 } from "../../components/3d-card/3d-card";
 import mac from "../../assets/images/mac.png";
+import { blogType } from "../../mock-data/blogs-data";
+import "../../css/scroll-container.css";
 
-const PortfolioBlogListPageTemplate = () => {
+type props = {
+  data: Array<blogType>;
+};
+
+const PortfolioBlogListPageTemplate = ({ data }: props) => {
   return (
     <div className="flex flex-col items-center justify-center">
       <div>
@@ -20,7 +26,7 @@ const PortfolioBlogListPageTemplate = () => {
         </CustomLabel>
       </div>
 
-      <div className="w-full flex flex-col items-center justify-center gap-4 p-4">
+      <div className="w-full flex items-center justify-start p-4 gap-4">
         <CardContainer className="inter-var border-2 border-[#DAC5A7] border-opacity-15 bg-[#DAC5A7] bg-opacity-5 rounded-xl p-4">
           <CardBody className="relative group/card border-none w-auto h-auto rounded-xl p-6 border  ">
             <CardItem
