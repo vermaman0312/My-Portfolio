@@ -28,6 +28,12 @@ const PortfolioHeaderPageTemplate = ({ title, onClick }: props) => {
             Technologies
           </CustomLabel>
           <CustomLabel
+            onClick={() => onClick && onClick("certification")}
+            className="text-sm text-[#DAC5A7] font-normal font-display cursor-pointer select-none uppercase"
+          >
+            Certifications
+          </CustomLabel>
+          <CustomLabel
             onClick={() => onClick && onClick("project")}
             className="text-sm text-[#DAC5A7] font-normal font-display cursor-pointer select-none uppercase"
           >

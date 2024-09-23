@@ -22,7 +22,7 @@ const PortfolioTechnologyPageTemplate = ({ data }: props) => {
   };
 
   // Determine the number of items to display
-  const displayedData = showAll ? data : data.slice(0, 6);
+  const displayedData = showAll ? data : data.slice(0, 3);
 
   return (
     <div className="flex flex-col items-center justify-center">
@@ -57,11 +57,14 @@ const PortfolioTechnologyPageTemplate = ({ data }: props) => {
                   </CardItem>
                   <CardItem
                     translateZ="120"
-                    className="w-full mt-4 flex items-center justify-center"
+                    className="w-full h-48 mt-4 flex items-center justify-center"
                   >
                     <img
                       src={technology.technologyImage}
-                      className="h-52 w-52 object-cover rounded-xl group-hover/card:shadow-xl"
+                      className={`${
+                        technology.technologyName.toLowerCase() === "node js" &&
+                        "w-64"
+                      } h-full object-fit rounded-xl group-hover/card:shadow-xl`}
                       alt="thumbnail"
                     />
                   </CardItem>
