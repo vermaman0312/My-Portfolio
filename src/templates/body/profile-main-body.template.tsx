@@ -46,6 +46,11 @@ const PortfolioProfileMainBodyPageTemplate = () => {
             </button>
           </div>
           <div>
+            <p className="text-xs text-[#DAC5A7] text-opacity-60 text-center font-display underline uppercase">
+              Ethnic Portfolio
+            </p>
+          </div>
+          <div>
             <p className="text-xs text-[#DAC5A7] text-opacity-60 text-center font-display">
               I'm proficient in React JS, Next JS, Node JS, Express JS, MongoDB,
               Electron JS, and TypeScript for web and mobile app development,

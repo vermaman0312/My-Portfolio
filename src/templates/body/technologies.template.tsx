@@ -36,7 +36,7 @@ const PortfolioTechnologyPageTemplate = ({ data }: props) => {
         </CustomLabel>
       </div>
 
-      <div className="w-full flex flex-wrap items-center justify-center p-4 gap-4">
+      <div className="w-full flex flex-wrap items-center justify-center p-4 gap-4 mt-10">
         {displayedData.map((technology, index) => {
           return (
             <div>
