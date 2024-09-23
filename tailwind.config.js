@@ -10,6 +10,8 @@ const config = {
         slideUp: 'slideUp 0.5s ease-out forwards',
         slideDown: 'slideDown 0.5s ease-out forwards',
         infiniteScroll: 'infinite-scroll 25s linear infinite',
+        meteor: "meteor 5s linear infinite",
+        scroll: "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
       keyframes: {
         zoomIn: {
@@ -51,11 +53,16 @@ const config = {
             transform: "rotate(215deg) translateX(-500px)",
             opacity: "0",
           },
-        }
+        },
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
+          },
+        },
       },
     },
     variants: {
-      animation: ['responsive', 'motion-safe', 'motion-reduce', { 'meteor': "meteor 5s linear infinite" }],
+      animation: ['responsive', 'motion-safe', 'motion-reduce', 'meteor', 'scroll'],
     },
     fontFamily: {
       'sans': ['ui-sans-serif', 'system-ui',],
