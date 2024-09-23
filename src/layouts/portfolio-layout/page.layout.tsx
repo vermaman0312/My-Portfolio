@@ -10,6 +10,8 @@ import "../../css/scroll-container.css";
 import "../../css/sliding_animation.css";
 import PortfolioTechnologyPageTemplate from "../../templates/body/technologies.template";
 import { technologiesData } from "../../mock-data/technologies.llist";
+import PortofolioCertificationListPageTemplate from "../../templates/body/certifications-list.template";
+import { certificationData } from "../../mock-data/certification_list";
 
 type props = {
   setMenuOption?: (value: string) => void;
@@ -51,6 +53,9 @@ const PortfolioPageLayout = ({
         </div>
         <div className="w-full mt-10">
           <PortfolioTechnologyPageTemplate data={technologiesData} />
+        </div>
+        <div className="w-full mt-10">
+          <PortofolioCertificationListPageTemplate data={certificationData} />
         </div>
         <div className="w-full">
           <PortfolioFooterPageTemplate />
