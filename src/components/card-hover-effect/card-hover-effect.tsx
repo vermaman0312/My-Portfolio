@@ -44,8 +44,22 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Card>
-            <CardTitle>{item.certifcateTitle}</CardTitle>
-            <CardDescription>{item.certificateDescription}</CardDescription>
+            <div className="flex flex-col items-start justify-between">
+              <div className="w-8 h-8">
+                <img
+                  src={item.certificateLogo}
+                  alt=""
+                  className="h-full object-fit"
+                />
+              </div>
+              <div className="border w-full">
+                <CardTitle>{item.certifcateTitle}</CardTitle>
+                <CardDescription>{item.certificateDescription}</CardDescription>
+              </div>
+              <div>
+                <button>View Certificate</button>
+              </div>
+            </div>
           </Card>
         </p>
       ))}
@@ -63,7 +77,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        "rounded-2xl h-full w-full p-4 overflow-hidden bg-[#DAC5A7] bg-opacity-5 border-2 border-[#DAC5A7] border-opacity-60 group-hover:[#DAC5A7] relative z-20",
+        "rounded-2xl h-[20rem] w-[25rem] p-4 overflow-hidden bg-[#DAC5A7] bg-opacity-5 border-2 border-[#DAC5A7] border-opacity-60 group-hover:[#DAC5A7] relative z-20",
         className
       )}
     >
@@ -82,7 +96,10 @@ export const CardTitle = ({
 }) => {
   return (
     <h4
-      className={cn("text-[#DAC5A7] font-bold tracking-wide mt-4", className)}
+      className={cn(
+        "text-[#DAC5A7] text-2xl font-normal font-display mt-4",
+        className
+      )}
     >
       {children}
     </h4>
