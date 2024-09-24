@@ -43,8 +43,8 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <Card>
-            <div className="flex flex-col items-start justify-between">
+          <Card className="h-full">
+            <div className="h-full flex flex-col items-start justify-between gap-4">
               <div className="w-8 h-8">
                 <img
                   src={item.certificateLogo}
@@ -52,12 +52,18 @@ export const HoverEffect = ({
                   className="h-full object-fit"
                 />
               </div>
-              <div className="border w-full">
-                <CardTitle>{item.certifcateTitle}</CardTitle>
-                <CardDescription>{item.certificateDescription}</CardDescription>
+              <div className="w-full">
+                <p className="font-display text-[#DAC5A7]">
+                  {item.certifcateTitle}
+                </p>
+                <p className="font-display text-[#DAC5A7] text-opacity-60 text-xs font-light">
+                  {item.certificateDescription}
+                </p>
               </div>
               <div>
-                <button>View Certificate</button>
+                <button className="bg-[#DAC5A7] p-2 text-xs font-display rounded-xl">
+                  View Certificate
+                </button>
               </div>
             </div>
           </Card>
@@ -82,7 +88,7 @@ export const Card = ({
       )}
     >
       <div className="relative z-50">
-        <div className="p-4">{children}</div>
+        <div className="p-4 w-full">{children}</div>
       </div>
     </div>
   );
