@@ -77,11 +77,33 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                     );
                   })}
                 </div>
-                <div className="mt-5 flex flex-wrap items-center justify-start gap-2">
-                  {item.projectContent.map((content, index) => {
-                    return <img src={content} alt="" className="w-32" />;
-                  })}
-                </div>
+                {item.projectContent.length > 0 && (
+                  <div className="mt-5 flex flex-wrap items-center justify-start gap-2">
+                    {item.projectContent.map((content, index) => {
+                      return (
+                        <img
+                          src={content}
+                          alt=""
+                          className="w-56 rounded-lg cursor-pointer"
+                        />
+                      );
+                    })}
+                  </div>
+                )}
+                {item.projectURL[0].toLowerCase().includes("figma") && (
+                  <div className="mt-5 flex flex-wrap items-center justify-start gap-2">
+                    <iframe
+                      style={{
+                        border: "none",
+                        width: "100%",
+                        height: "100%",
+                      }}
+                      src={item.projectURL[0]}
+                      allowFullScreen
+                      title="Figma Project Embed"
+                    />
+                  </div>
+                )}
                 <div className="mt-5 flex flex-col gap-2">
                   {item.projectURL.map((url, index) => {
                     return (
