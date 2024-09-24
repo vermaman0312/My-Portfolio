@@ -19,7 +19,7 @@ export type TimelineEntry = {
 export const projectList: TimelineEntry[] = [
   {
     projectId: "001",
-    projectTitle: "Verma Social",
+    projectTitle: "Virtual Engagement & Relationship Management App",
     ProjectDescription:
       "Verma Social a social media platform that allows users to log in, register, and post content. Users can like and comment on posts, engage in private chats or messages, and view and update their profiles, providing a complete social networking experience.",
     projectTechnology: [
