@@ -1,6 +1,7 @@
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { TimelineEntry } from "../../mock-data/preoject-list";
+import { Link } from "react-router-dom";
 
 export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   const ref = useRef<HTMLDivElement>(null);
@@ -79,6 +80,19 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                 <div className="mt-5 flex flex-wrap items-center justify-start gap-2">
                   {item.projectContent.map((content, index) => {
                     return <img src={content} alt="" className="w-32" />;
+                  })}
+                </div>
+                <div className="mt-5 flex flex-col gap-2">
+                  {item.projectURL.map((url, index) => {
+                    return (
+                      <Link
+                        to={url}
+                        className="text-xs font-display text-[#DAC5A7] underline"
+                        target="_, blank"
+                      >
+                        {`URL ${index + 1}: ${url}`}
+                      </Link>
+                    );
                   })}
                 </div>
               </div>

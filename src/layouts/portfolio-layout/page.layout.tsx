@@ -14,6 +14,7 @@ import PortofolioCertificationListPageTemplate from "../../templates/body/certif
 import { certificationData } from "../../mock-data/certification_list";
 import PortfolioProjectListPageTemplate from "../../templates/body/preojects-list.template";
 import { projectList } from "../../mock-data/preoject-list";
+import PortfolioAboutPageTemplate from "../../templates/body/about.template";
 
 type props = {
   setMenuOption?: (value: string) => void;
@@ -50,7 +51,10 @@ const PortfolioPageLayout = ({
         <div className="w-full mt-5">
           <PortfolioProfileSkillPageTemplate data={skillsData} />
         </div>
-        <div className="w-full">
+        <div className="w-full mt-10">
+          <PortfolioAboutPageTemplate />
+        </div>
+        <div className="w-full mt-10">
           <PortfolioServicesWorkListPageTemplate data={workData} />
         </div>
         <div className="w-full mt-10">
