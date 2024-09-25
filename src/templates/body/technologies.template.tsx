@@ -26,11 +26,11 @@ const PortfolioTechnologyPageTemplate = ({ data }: props) => {
 
   return (
     <div className="flex flex-col items-center justify-center">
-      <div>
+      <div className="p-4">
         <CustomLabel className="text-4xl font-display text-[#DAC5A7] text-opacity-60 font-normal border-b-8 border-[#DAC5A7] border-opacity-60 rounded-b-lg text-center">
           My Technologies
         </CustomLabel>
-        <CustomLabel className="text-xs font-display text-[#DAC5A7] text-opacity-60 font-normal">
+        <CustomLabel className="text-xs font-display text-[#DAC5A7] text-opacity-60 font-normal text-center">
           Premium web design, development, and SEO services to help your
           business stand out.
         </CustomLabel>
@@ -95,7 +95,7 @@ const PortfolioTechnologyPageTemplate = ({ data }: props) => {
         })}
       </div>
 
-      <div className="w-full flex items-center justify-end md:pr-60">
+      <div className="w-full flex items-center justify-center">
         <CustomButtonVariantOne
           onClick={toggleShowAll}
           className="border-2 text-[#DAC5A7] text-opacity-60 border-[#DAC5A7] border-opacity-60 p-2 text-xs font-display rounded-lg flex items-center justify-center gap-2"

@@ -66,7 +66,7 @@ const PortfolioPageLayout = ({
         <div className="w-full mt-10">
           <PortfolioProjectListPageTemplate data={projectList} />
         </div>
-        <div className="w-full">
+        <div className="w-full ">
           <PortfolioFooterPageTemplate />
         </div>
       </div>

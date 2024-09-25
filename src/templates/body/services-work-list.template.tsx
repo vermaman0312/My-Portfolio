@@ -16,11 +16,11 @@ type props = {
 const PortfolioServicesWorkListPageTemplate = ({ ...props }: props) => {
   return (
     <div className="flex flex-col items-center justify-center">
-      <div>
+      <div className="p-4">
         <CustomLabel className="text-4xl font-display text-[#DAC5A7] text-opacity-60 font-normal border-b-8 border-[#DAC5A7] border-opacity-60 rounded-b-lg text-center">
           SERVICES & WORK
         </CustomLabel>
-        <CustomLabel className="text-xs font-display text-[#DAC5A7] text-opacity-60 font-normal">
+        <CustomLabel className="text-xs font-display text-[#DAC5A7] text-opacity-60 font-normal text-center">
           Premium web design, development, and SEO services to help your
           business stand out.
         </CustomLabel>
