@@ -1,0 +1,291 @@
+{
+  "userName": "Aman Verma",
+  "userEmailAddress": "verma.kittu500@gmail.com",
+  "userPhoneNumber": "+91-6205240414",
+  "userAddress": "Rajkot, Gujarat, India",
+  "userPinCode": "360020",
+  "userObjective1": "Seeking a position in a company where I can grow and learn new technologies. I am a quick learner and I am always ready to take new challenges.",
+  "userObjective2": "I am a quick learner and I am always ready to take new challenges.",
+  "userObjective3": "I am a quick learner and I am always ready to take new challenges.",
+  "userSocialLinks": [
+    {
+      "title": "Linkedin",
+      "icon": "",
+      "url": ""
+    },
+    {
+      "title": "Twitter",
+      "icon": "",
+      "url": ""
+    },
+    {
+      "title": "Stack Overflow",
+      "icon": "",
+      "url": ""
+    },
+    {
+      "title": "Github",
+      "icon": "",
+      "url": ""
+    },
+    {
+      "title": "Quora",
+      "icon": "",
+      "url": ""
+    },
+    {
+      "title": "Instagram",
+      "icon": "",
+      "url": ""
+    }
+  ],
+  "userEducation": [
+    {
+      "faculty": "Bachelor of Technology",
+      "branch": "Computer Engineering",
+      "institute": "Rajkot Engineering College",
+      "yearOfPassing": "2024",
+      "percentage": "8.86 CGPA"
+    },
+    {
+      "faculty": "+2",
+      "branch": "Science",
+      "institute": "R.B.P Intermediate College",
+      "yearOfPassing": "2016",
+      "percentage": "66%"
+    },
+    {
+      "faculty": "10th",
+      "branch": null,
+      "institute": "Shree Juddha Higher Secondary School",
+      "yearOfPassing": "2014",
+      "percentage": "62.5%"
+    }
+  ],
+  "userCertifications": [
+    {
+      "certificationName": "Ethical Hacking Masterclass",
+      "certificationDescription": "Ethical Hacking Masterclass Certification. Ethical Hacking Masterclass Certification. Ethical Hacking Masterclass Certification",
+      "certificationAuthority": "Infosys Springboard",
+      "certificationDate": "",
+      "certificationLogo": "",
+      "certificationImage": "",
+      "certificationBadge": ""
+    }
+  ],
+  "userWorkExperience": [
+    {
+      "companyName": "Gateway Group of Companies",
+      "designation": "Engineer - Software Development",
+      "yearOfJoining": "Aug -2024",
+      "yearOfLeaving": "Present"
+    },
+    {
+      "companyName": "Gateway Group of Companies",
+      "designation": "Associate - Software Development",
+      "yearOfJoining": "Dec - 2022",
+      "yearOfLeaving": "July - 2024"
+    }
+  ],
+  "userSkills": [
+    {
+      "skillName": "React JS",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "React JS is a JavaScript library for building fast, interactive user interfaces using reusable components and a virtual DOM. It's widely used for creating dynamic, single-page applications.",
+      "skillLongDescription": "I have hands-on experience working with React JS, building dynamic and responsive user interfaces. I am skilled in creating reusable components, managing application state, and leveraging React's virtual DOM for efficient updates. My experience includes working with hooks, managing data flows, and integrating APIs to create scalable single-page applications.",
+      "skillLogo": "../assets/images/react_logo.png"
+    },
+    {
+      "skillName": "Next JS",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/next_logo.png"
+    },
+    {
+      "skillName": "Vite JS",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/vitejs_logo.png"
+    },
+    {
+      "skillName": "Vue JS",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/vuejs_logo.png"
+    },
+    {
+      "skillName": "Typescript",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/typescript_logo.png"
+    },
+    {
+      "skillName": "Node JS",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/nodejs_logo.png"
+    },
+    {
+      "skillName": "MongoDB",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/mongodb_logo.png"
+    },
+    {
+      "skillName": "Docker",
+      "skillLevel": "Beginner",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/docker_logo.png"
+    },
+    {
+      "skillName": "HTML5",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/html5_logo.png"
+    },
+    {
+      "skillName": "CSS",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/css_logo.png"
+    },
+    {
+      "skillName": "Tailwind CSS",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/tailwind_logo.png"
+    },
+    {
+      "skillName": "Shell Scripting",
+      "skillLevel": "Beginner",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/shellscript_logo.png"
+    },
+    {
+      "skillName": "Kali Linux",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/kalilinux_logo.png"
+    },
+    {
+      "skillName": "Python",
+      "skillLevel": "Beginner",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/python_logo.png"
+    },
+    {
+      "skillName": "Jira",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/jira_logo.png"
+    },
+    {
+      "skillName": "Git",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/gtihub_logo.png"
+    }
+  ],
+  "userServicesWork": [
+    {
+      "type": "Wireframe Design",
+      "title": "Building the blueprint for your digital solution",
+      "description": "Creating detailed wireframes that provide a visual foundation for your application, helping define the structure and flow before full development.",
+      "icons": [],
+      "concept": "I begin by understanding your project requirements and audience to develop a wireframe concept that outlines the core structure and flow of the application. These wireframes serve as the blueprint for the design and functionality.",
+      "design": "I'll create low-fidelity and high-fidelity wireframes to visually represent the user interface layout, ensuring a smooth user journey and alignment with your business goals. These wireframes will focus on user interaction and content placement without distractions from design elements.",
+      "protoType": "Once the wireframe is approved, I can provide an interactive prototype to simulate how the application will function. This helps in gathering feedback on the user experience and making necessary adjustments before moving to the full design phase."
+    },
+    {
+      "type": "Frontend Development",
+      "title": "Transforming your ideas into reality",
+      "description": "Visually stunning web designs that captivate your audience by blending your brand voice and customer needs.",
+      "icons": [
+        "../assets/images/react_logo.png",
+        "../assets/images/next_logo.png"
+      ],
+      "concept": "I take time to understand your business needs and audience to develop a unique concept for your website. I'll create wireframes that serve as the foundation for your site's design and functionality.",
+      "design": "I'll design a user-friendly interface that is visually appealing and engages your target audience. Your website will be created to meet your brand's needs and goals while ensuring a seamless user experience.",
+      "protoType": "With an interactive prototype, you'll have the ability to test your website's functionality before it goes live. This will ensure that your website's design and user experience are optimized for your audience's needs and preferences."
+    },
+    {
+      "type": "Mobile Application Development",
+      "title": "Building innovative mobile experiences",
+      "description": "Crafting mobile applications that provide seamless and engaging user experiences, tailored to your audience's needs across platforms.",
+      "icons": [],
+      "concept": "I start by understanding your target users and business goals to create a mobile app concept that blends user-centric design with functionality. Wireframes will be designed to serve as a blueprint for the app's interface and flow.",
+      "design": "I'll design a mobile-friendly, intuitive interface that provides an engaging user experience across all devices. Your app will be tailored to meet your brand’s aesthetic while delivering high functionality.",
+      "protoType": "With a functional prototype, you'll be able to interact with your mobile app before development begins, ensuring that its design, usability, and overall experience meet your requirements and delight users."
+    },
+    {
+      "type": "Desktop Application Development",
+      "title": "Building efficient desktop applications",
+      "description": "Creating desktop applications that combine performance, user experience, and functionality to meet your business needs.",
+      "icons": [],
+      "concept": "I begin by understanding your business objectives and the needs of your users, designing a concept that aligns with your goals. Wireframes and mockups are crafted to map out the application's functionality and flow.",
+      "design": "I'll design a clean and intuitive interface for your desktop application that enhances user interaction and meets your business’s requirements. The focus will be on usability, efficiency, and a seamless experience.",
+      "protoType": "An interactive prototype will be provided, allowing you to explore and test the application's features and user experience before development. This ensures that the final product aligns with your expectations and provides the desired functionality."
+    },
+    {
+      "type": "Backend - Architecture & Development",
+      "title": "Building a robust foundation for application",
+      "description": "Efficient and scalable backend solutions tailored to support your business's growth and operational needs.",
+      "icons": [
+        "../assets/images/nodejs_logo.png",
+        "../assets/images/mongodb_logo.png"
+      ],
+      "concept": "I carefully analyze your business requirements and design a backend architecture that ensures high performance, scalability, and security. This includes choosing the right database, server setup, and APIs to support your application.",
+      "design": "I'll develop a backend system that seamlessly integrates with your frontend, ensuring smooth data flow and optimized performance. This includes building APIs, setting up server environments, and implementing security protocols.",
+      "protoType": "Your backend will be deployed using the latest technologies and best practices. You'll have a stable and secure system that can handle your application's current needs and scale with future growth."
+    },
+    {
+      "type": "Deployment - Frontend/Backend",
+      "title": "Deploying application with scalability",
+      "description": "Ensuring smooth and efficient deployment for both frontend and backend, creating a robust and scalable live environment for your application.",
+      "icons": [],
+      "concept": "The frontend will be deployed using modern hosting platforms like Vercel, Netlify, or cloud services. We'll ensure that your UI is optimized for performance, SEO, and accessibility, with automated build pipelines in place.",
+      "design": "For the backend, I will handle cloud deployment through platforms like AWS, Google Cloud, or Azure. Docker containers and CI/CD pipelines will be set up to automate updates and manage scaling based on demand.",
+      "protoType": "Post-deployment, monitoring tools will be integrated for real-time performance tracking, error reporting, and system alerts to ensure continuous smooth operation."
+    }
+  ],
+  "userProjects": [
+    {
+      "projectName": "Virtual Engagement and Real-time Social Application",
+      "projectDescription": "VERSA is a comprehensive social media platform that allows users to log in, register, and post content. Users can engage with posts by liking, commenting, and participating in private chats or messages. The platform also features channels for group discussions, a map for location-based interactions, and a friend request system, enabling users to connect by sending and accepting requests. Additionally, users can view and update their profiles, making VERSA a complete social networking experience for personal and group interactions.",
+      "projectTechnologies": [
+        "Figma",
+        "React JS",
+        "HTML5",
+        "CSS",
+        "Tailwind CSS",
+        "Typescript",
+        "Node JS",
+        "MongoDB",
+        "Express JS",
+        "WebRTC",
+        "Web Socket",
+        "Socket IO",
+        "AWS",
+        "Docker",
+        "React Native"
+      ],
+      "projectImageURL": [],
+      "projectLinkURL": []
+    }
+  ]
+}

@@ -110,7 +110,7 @@ export const projectList: TimelineEntry[] = [
     ],
   },
   {
-    projectId: "005",
+    projectId: "006",
     projectTitle: "V-Editor",
     ProjectDescription:
       "V-Editor is a text-editor application built using React and TypeScript. It provides users with a sleek, interactive interface for creating and editing text documents. The application offers rich text formatting options, ensuring a smooth and efficient writing experience, making it ideal for developers and content creators seeking a modern, customizable editor.",
@@ -121,6 +121,18 @@ export const projectList: TimelineEntry[] = [
       "Express JS",
       "MongoDB",
     ],
+    projectContent: [dashboard, profile, setting, option, message, channel],
+    projectURL: [
+      "https://github.com/vermaman0312/V-Editor-Frontend",
+      "https://github.com/vermaman0312/V-Editor-Bakcend",
+    ],
+  },
+  {
+    projectId: "007",
+    projectTitle: "Browser Extension",
+    ProjectDescription:
+      "V-Editor is a text-editor application built using React and TypeScript. It provides users with a sleek, interactive interface for creating and editing text documents. The application offers rich text formatting options, ensuring a smooth and efficient writing experience, making it ideal for developers and content creators seeking a modern, customizable editor.",
+    projectTechnology: ["HTML5", "CSS", "JavaScript", "Manifest"],
     projectContent: [dashboard, profile, setting, option, message, channel],
     projectURL: [
       "https://github.com/vermaman0312/V-Editor-Frontend",
