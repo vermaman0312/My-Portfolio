@@ -1,5 +1,5 @@
-import redux_logo from "../../assets/images/redux_logo.png";
-import "../../css/global.css";
+import React from "react";
+import "../../../css/global.css";
 import {
   ReactJSComponent,
   NextJSComponent,
@@ -11,7 +11,11 @@ import {
   DockerComponent,
 } from "./profile-icon-list.component";
 
-const PortfolioProfilePicturePageTemplate = () => {
+type props = {
+  image: string;
+};
+
+const ProfilePictureComponent = ({ ...props }: props) => {
   const components = [
     ReactJSComponent,
     NextJSComponent,
@@ -54,11 +58,11 @@ const PortfolioProfilePicturePageTemplate = () => {
           })}
         </div>
       </div>
-      <div className="-mt-28 ml-5 z-50">
-        <img src={redux_logo} alt="" className="w-full h-full" />
+      <div className="-mt-28 ml-5 z-40">
+        <img src={props.image} alt="" className="w-full h-full" />
       </div>
     </div>
   );
 };
 
-export default PortfolioProfilePicturePageTemplate;
+export default ProfilePictureComponent;

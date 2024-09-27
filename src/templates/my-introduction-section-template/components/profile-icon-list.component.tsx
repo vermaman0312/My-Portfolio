@@ -1,17 +1,17 @@
-import react_logo from "../../assets/images/react_logo.png";
-import next_logo from "../../assets/images/next_logo.png";
-import node_logo from "../../assets/images/nodejs_logo.png";
-import typescript_logo from "../../assets/images/typescript_logo.png";
-import mongodb_logo from "../../assets/images/mongodb_logo.png";
-import mern_logo from "../../assets/images/mern_logo.png";
-import redux_logo from "../../assets/images/redux_logo.png";
-import docker_logo from "../../assets/images/docker_logo.png";
-import html5_logo from "../../assets/images/html5_logo.png";
-import css_logo from "../../assets/images/css_logo.png";
-import tailwind_logo from "../../assets/images/tailwind_logo.png";
-import python_logo from "../../assets/images/python_logo.png";
-import shellscript_logo from "../../assets/images/shellscript_logo.png";
-import kalilinux_logo from "../../assets/images/kalilinux_logo.png";
+import react_logo from "../../../assets/images/react_logo.png";
+import next_logo from "../../../assets/images/next_logo.png";
+import node_logo from "../../../assets/images/nodejs_logo.png";
+import typescript_logo from "../../../assets/images/typescript_logo.png";
+import mongodb_logo from "../../../assets/images/mongodb_logo.png";
+import mern_logo from "../../../assets/images/mern_logo.png";
+import redux_logo from "../../../assets/images/redux_logo.png";
+import docker_logo from "../../../assets/images/docker_logo.png";
+import html5_logo from "../../../assets/images/html5_logo.png";
+import css_logo from "../../../assets/images/css_logo.png";
+import tailwind_logo from "../../../assets/images/tailwind_logo.png";
+import python_logo from "../../../assets/images/python_logo.png";
+import shellscript_logo from "../../../assets/images/shellscript_logo.png";
+import kalilinux_logo from "../../../assets/images/kalilinux_logo.png";
 
 export const ReactJSComponent = () => {
   return (

@@ -7,10 +7,10 @@ type props = {
   style?: Record<string, string>;
 };
 
-export const CustomLabel = ({ children, onClick, className, style }: props) => {
+export const CustomLabel = ({ ...props }: props) => {
   return (
-    <p onClick={onClick} className={className} style={style}>
-      {children}
+    <p onClick={props.onClick} className={props.className} style={props.style}>
+      {props.children}
     </p>
   );
 };

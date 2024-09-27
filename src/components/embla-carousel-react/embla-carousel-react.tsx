@@ -4,7 +4,7 @@ import useEmblaCarousel, {
   type UseEmblaCarouselType,
 } from "embla-carousel-react";
 import { cn } from "../../utils/lib-framer-motion/cn";
-import { Button } from "../custom-button/page.component";
+import { Button } from "../ui/button-ui/ui";
 
 type CarouselApi = UseEmblaCarouselType[1];
 type UseCarouselParameters = Parameters<typeof useEmblaCarousel>;
