@@ -1,5 +1,8 @@
 import PortfolioMyHeaderSectionPageTemplate from "../../templates/my-header-section-template/page";
-import { TUserPortfolioTypeInterface } from "../../types/portfolio.type";
+import {
+  TUserPortfolioTypeInterface,
+  TUserServicesWorkType,
+} from "../../types/portfolio.type";
 import "../../css/scroll-container.css";
 import PortfolioMyIntroductionSectionPageTemplate from "../../templates/my-introduction-section-template/page";
 import { BackgroundBeamsWithCollision } from "../../components/ui/background-beams-with-collision/ui";
@@ -94,9 +97,23 @@ const PortfolioPageLayout = ({ ...props }: props) => {
 
       <div
         id="servicesWork"
-        className="w-full border mt-5 flex items-center justify-center select-none p-4 mb-5"
+        className="w-full mt-5 hidden md:flex items-center justify-between select-none p-4 mb-5"
       >
-        <PortfolioServicesWorkSectionPageTemplate />
+        <div className="flex flex-col items-center justify-center gap-4 border">
+          <CustomLabel className="text-[#DAC5A7] font-display text-6xl flex items-center justify-center gap-2">
+            Services & Work
+          </CustomLabel>
+          <CustomLabel className="text-[#DAC5A7] font-display text-xs text-center">
+            I'm proficient in React JS, Next JS, Node JS, Express JS, MongoDB,
+            Electron JS, and TypeScript for web and mobile app development, with
+            a strong interest in IoT and cybersecurity.
+          </CustomLabel>
+        </div>
+        <div className="w-full border">
+          <PortfolioServicesWorkSectionPageTemplate
+            data={props.userData.userServicesWork as TUserServicesWorkType[]}
+          />
+        </div>
       </div>
     </div>
   );

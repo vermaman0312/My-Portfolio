@@ -1,3 +1,11 @@
+:root {
+    --rotate-speed: 40;
+    --count: 8;
+    /* Default count, the DOM element should override this */
+    --easeInOutSine: cubic-bezier(0.37, 0, 0.63, 1);
+    --easing: cubic-bezier(0.000, 0.37, 1.000, 0.63);
+}
+
 .void {
     width: 100%;
     max-width: 1024px;
@@ -37,15 +45,14 @@ li {
     align-items: flex-start;
     padding: 16px 24px;
     gap: 8px;
-    background: #FFFFFF;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1), 0px 16px 32px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
-    color: #535062;
+    color: #98866c;
     animation: rotateCCW calc(var(--rotate-speed) * 1s) var(--easing) infinite;
 }
 
@@ -58,7 +65,7 @@ a {
     font-weight: 500;
     font-size: 18px;
     line-height: 150%;
-    color: #3B2ED0;
+    color: #DAC5A7;
     display: block;
 }
 
