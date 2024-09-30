@@ -116,16 +116,16 @@ const PortfolioPageLayout = ({ ...props }: props) => {
         className="w-full mt-5 flex flex-col items-center justify-between select-none p-4 mb-5"
       >
         <div className="flex flex-col items-center justify-center gap-4">
-          <CustomLabel className="text-[#DAC5A7] font-display text-4xl md:text-6xl flex items-center justify-center gap-2">
-            Testonomial
+          <CustomLabel className="text-[#DAC5A7] font-display text-4xl flex items-center justify-center gap-2 uppercase text-center">
+            <Cover className="text-[#DAC5A7]">Testonomial</Cover>
           </CustomLabel>
-          <CustomLabel className="text-[#DAC5A7] font-display text-xs text-center">
+          <CustomLabel className="text-[#DAC5A7] font-display text-xs text-center md:w-[50%]">
             I'm proficient in React JS, Next JS, Node JS, Express JS, MongoDB,
             Electron JS, and TypeScript for web and mobile app development, with
             a strong interest in IoT and cybersecurity.
           </CustomLabel>
         </div>
-        <div className="w-full">
+        <div className="w-full flex items-center justify-center">
           <PortfolioMyTestonomialSectionPageTemplate />
         </div>
       </div>
