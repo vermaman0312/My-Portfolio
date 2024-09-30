@@ -26,9 +26,12 @@ export type TUserCertificationsType = {
 
 export type TUserWorkExperienceType = {
   companyName: string | null;
+  companyLogo: string | null;
   designation: string | null;
   yearOfJoining: string | null;
   yearOfLeaving: string | null;
+  companyURL: string | null;
+  companyDescription: string | null;
 };
 
 export type TUserSkillsType = {

@@ -3,8 +3,9 @@ import { ArrowLeftIcon, ArrowRightIcon } from "@radix-ui/react-icons";
 import useEmblaCarousel, {
   type UseEmblaCarouselType,
 } from "embla-carousel-react";
-import { cn } from "../../utils/lib-framer-motion/cn";
-import { Button } from "../ui/button-ui/ui";
+
+import { cn } from "../../../utils/lib-framer-motion/cn";
+import { Button } from "../button-ui/ui";
 
 type CarouselApi = UseEmblaCarouselType[1];
 type UseCarouselParameters = Parameters<typeof useEmblaCarousel>;
@@ -214,7 +215,6 @@ const CarouselPrevious = React.forwardRef<
       {...props}
     >
       <ArrowLeftIcon className="h-4 w-4" />
-      <span className="sr-only">Previous slide</span>
     </Button>
   );
 });

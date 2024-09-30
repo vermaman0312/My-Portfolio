@@ -94,15 +94,30 @@
   "userWorkExperience": [
     {
       "companyName": "Gateway Group of Companies",
+      "companyLogo": "../assets/organization-logo/gateway.png",
       "designation": "Engineer - Software Development",
       "yearOfJoining": "Aug -2024",
-      "yearOfLeaving": "Present"
+      "yearOfLeaving": "Present",
+      "companyURL": "https://thegatewaycorp.com/",
+      "companyDescription": "Gateway Group of Companies is a company that provides software development services to businesses. It is a company that provides software development services to businesses. It is a company that provides software development services to businesses."
     },
     {
       "companyName": "Gateway Group of Companies",
+      "companyLogo": "../assets/organization-logo/gateway.png",
       "designation": "Associate - Software Development",
       "yearOfJoining": "Dec - 2022",
-      "yearOfLeaving": "July - 2024"
+      "yearOfLeaving": "July - 2024",
+      "companyURL": "https://thegatewaycorp.com/",
+      "companyDescription": "Gateway Group of Companies is a company that provides software development services to businesses. It is a company that provides software development services to businesses. It is a company that provides software development services to businesses."
+    },
+    {
+      "companyName": "Unity Women Development Nepal",
+      "companyLogo": "../assets/organization-logo/gateway.png",
+      "designation": "Associate - Software Development",
+      "yearOfJoining": "Dec - 2022",
+      "yearOfLeaving": "July - 2024",
+      "companyURL": "https://thegatewaycorp.com/",
+      "companyDescription": "Gateway Group of Companies is a company that provides software development services to businesses. It is a company that provides software development services to businesses. It is a company that provides software development services to businesses."
     }
   ],
 
@@ -303,7 +318,7 @@
         "Docker",
         "React Native"
       ],
-      "projectImageURL": [],
+      "projectImageURL": ["../assets/verma-social/dashboard.png"],
       "projectLinkURL": []
     }
   ]
