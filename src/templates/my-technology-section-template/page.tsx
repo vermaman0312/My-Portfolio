@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import { TUserSkillsType } from "../../types/portfolio.type";
 
-const PortfolioMyTechnologySectionPageTemplate = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+type props = {
+  data: Array<TUserSkillsType>;
+};
+
+const PortfolioMyTechnologySectionPageTemplate = ({ ...props }: props) => {
+  return <div></div>;
+};
 
 export default PortfolioMyTechnologySectionPageTemplate;

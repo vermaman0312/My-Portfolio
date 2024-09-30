@@ -67,9 +67,27 @@
       "certificationName": "Ethical Hacking Masterclass",
       "certificationDescription": "Ethical Hacking Masterclass Certification. Ethical Hacking Masterclass Certification. Ethical Hacking Masterclass Certification",
       "certificationAuthority": "Infosys Springboard",
-      "certificationDate": "",
+      "certificationDate": "03/12/1998",
       "certificationLogo": "",
-      "certificationImage": "",
+      "certificationImage": "../assets/images/kalilinux_logo.png",
+      "certificationBadge": ""
+    },
+    {
+      "certificationName": "Digital Forensic",
+      "certificationDescription": "Digital Forensic Certification.Digital Forensic Certification. Digital Forensic Certification",
+      "certificationAuthority": "Infosys Springboard",
+      "certificationDate": "03/12/1998",
+      "certificationLogo": "",
+      "certificationImage": "../assets/images/kalilinux_logo.png",
+      "certificationBadge": ""
+    },
+    {
+      "certificationName": "Ethical Hacking Masterclass",
+      "certificationDescription": "Ethical Hacking Masterclass Certification. Ethical Hacking Masterclass Certification. Ethical Hacking Masterclass Certification",
+      "certificationAuthority": "Infosys Springboard",
+      "certificationDate": "03/12/1998",
+      "certificationLogo": "",
+      "certificationImage": "../assets/images/kalilinux_logo.png",
       "certificationBadge": ""
     }
   ],
@@ -87,6 +105,7 @@
       "yearOfLeaving": "July - 2024"
     }
   ],
+
   "userSkills": [
     {
       "skillName": "React JS",

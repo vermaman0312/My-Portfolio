@@ -15,16 +15,16 @@ const PortfolioMyHeaderSectionMenusPageComponent = ({ ...props }: props) => {
         About
       </CustomLabel>
       <CustomLabel
-        onClick={() => props.onClick("servicesWork")}
-        className="text-sm text-[#DAC5A7] font-normal font-display cursor-pointer select-none uppercase"
-      >
-        Services & Work
-      </CustomLabel>
-      <CustomLabel
         onClick={() => props.onClick("technology")}
         className="text-sm text-[#DAC5A7] font-normal font-display cursor-pointer select-none uppercase"
       >
         Technologies
+      </CustomLabel>
+      <CustomLabel
+        onClick={() => props.onClick("servicesWork")}
+        className="text-sm text-[#DAC5A7] font-normal font-display cursor-pointer select-none uppercase"
+      >
+        Services & Work
       </CustomLabel>
       <CustomLabel
         onClick={() => props.onClick("certification")}
