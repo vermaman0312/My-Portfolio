@@ -83,9 +83,9 @@ const PortfolioPageLayout = ({ ...props }: props) => {
             <Cover className="text-[#DAC5A7]">Testonomial</Cover>
           </CustomLabel>
           <CustomLabel className="text-[#DAC5A7] font-display text-xs text-center md:w-[50%]">
-            I'm proficient in React JS, Next JS, Node JS, Express JS, MongoDB,
-            Electron JS, and TypeScript for web and mobile app development, with
-            a strong interest in IoT and cybersecurity.
+            Grateful for the opportunity to share my experience. This journey
+            has been enriching, and I’ve grown both personally and
+            professionally. Looking forward to more exciting challenges ahead!
           </CustomLabel>
         </div>
         <div className="w-full flex items-center justify-center">
@@ -103,9 +103,9 @@ const PortfolioPageLayout = ({ ...props }: props) => {
             <Cover className="text-[#DAC5A7]">My Technologies</Cover>
           </CustomLabel>
           <CustomLabel className="text-[#DAC5A7] font-display text-xs text-center md:w-[50%] z-1">
-            I'm proficient in React JS, Next JS, Node JS, Express JS, MongoDB,
-            Electron JS, and TypeScript for web and mobile app development, with
-            a strong interest in IoT and cybersecurity.
+            I believe in the power of technology to solve real-world problems.
+            With my experience in various technologies, I continuously seek to
+            innovate and create solutions that drive progress.
           </CustomLabel>
         </div>
         <div className="w-full flex items-center justify-center mt-10">
@@ -125,9 +125,9 @@ const PortfolioPageLayout = ({ ...props }: props) => {
             <Cover className="text-[#DAC5A7]">Services & Work</Cover>
           </CustomLabel>
           <CustomLabel className="text-[#DAC5A7] font-display text-xs text-center md:w-[50%]">
-            I'm proficient in React JS, Next JS, Node JS, Express JS, MongoDB,
-            Electron JS, and TypeScript for web and mobile app development, with
-            a strong interest in IoT and cybersecurity.
+            I leverage technology to deliver innovative solutions and
+            high-quality services. With a passion for excellence, I strive to
+            add value and exceed expectations in every project.
           </CustomLabel>
         </div>
         <div className="w-full mt-5">
@@ -157,9 +157,9 @@ const PortfolioPageLayout = ({ ...props }: props) => {
             <Cover className="text-[#DAC5A7]">My Work Experiences</Cover>
           </CustomLabel>
           <CustomLabel className="text-[#DAC5A7] font-display text-xs text-center md:w-[50%]">
-            I'm proficient in React JS, Next JS, Node JS, Express JS, MongoDB,
-            Electron JS, and TypeScript for web and mobile app development, with
-            a strong interest in IoT and cybersecurity.
+            I bring solid experience in technology, delivering innovative
+            solutions and quality services. My work is driven by a commitment to
+            excellence and continuous growth.
           </CustomLabel>
         </div>
         <div className="w-full flex items-center justify-center">
@@ -181,9 +181,9 @@ const PortfolioPageLayout = ({ ...props }: props) => {
             <Cover className="text-[#DAC5A7]">My Projects</Cover>
           </CustomLabel>
           <CustomLabel className="text-[#DAC5A7] font-display text-xs text-center md:w-[50%]">
-            I'm proficient in React JS, Next JS, Node JS, Express JS, MongoDB,
-            Electron JS, and TypeScript for web and mobile app development, with
-            a strong interest in IoT and cybersecurity.
+            I've developed impactful projects, blending innovation and
+            technology to deliver practical solutions. Each project reflects my
+            dedication to quality and problem-solving.
           </CustomLabel>
         </div>
         <div className="w-full">
