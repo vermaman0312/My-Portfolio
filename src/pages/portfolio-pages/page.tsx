@@ -1,5 +1,5 @@
 import { useState } from "react";
-import PortfolioPageLayout from "../../layouts/portfolio-layout/page.layout";
+import PortfolioPageLayout from "../../layouts/page.layout";
 import { TUserPortfolioTypeInterface } from "../../types/portfolio.type";
 import portfolioData from "../../portfolio/portfolio.json";
 

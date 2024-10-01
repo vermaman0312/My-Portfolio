@@ -1,4 +1,4 @@
-import { cn } from "../../utils/lib-framer-motion/cn";
+import { cn } from "../../../utils/lib-framer-motion/cn";
 import { motion, stagger, useAnimate, useInView } from "framer-motion";
 import { useEffect } from "react";
 

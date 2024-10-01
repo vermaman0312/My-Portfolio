@@ -9,7 +9,7 @@ type props = {
 
 const PortfolioContactMainBodyPageComponent = ({ ...props }: props) => {
   return (
-    <div className="w-full flex items-center justify-center flex-col gap-4 md:p-52 p-4">
+    <div className="w-full flex items-center justify-center flex-col gap-4 md:p-16 p-4">
       <p className="text-xs font-display text-[#DAC5A7] uppercase font-light text-center">
         {props.title}
       </p>

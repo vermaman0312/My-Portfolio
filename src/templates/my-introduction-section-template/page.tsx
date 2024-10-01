@@ -1,7 +1,7 @@
 import React from "react";
 import ProfilePictureComponent from "./components/profile-picture.component";
 import redux_logo from "../../assets/images/redux_logo.png";
-import { TypewriterEffectSmooth } from "../../components/typewriter-effect/typewriter-effect";
+import { TypewriterEffectSmooth } from "../../components/ui/typewriter-effect/typewriter-effect";
 import { CustomLabel } from "../../components/custom-components/custom-label/component";
 import CustomButton from "../../components/custom-components/custom-button/component";
 
