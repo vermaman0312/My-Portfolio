@@ -21,6 +21,7 @@ import PortfolioMyContactSectionPageTemplate from "../../templates/my-contact-se
 import PortfolioMyWorkingExperienceSectionPageTemplate from "../../templates/my-working-experience-section-template/page";
 import PortfolioMyTestonomialSectionPageTemplate from "../../templates/my-testonomial-section-template/page";
 import { Cover } from "../../components/ui/cover/ui";
+import PortfolioMyFooterSectionPageTemplate from "../../templates/my-footer-section-template/page";
 
 type props = {
   userData: TUserPortfolioTypeInterface;
@@ -136,16 +137,16 @@ const PortfolioPageLayout = ({ ...props }: props) => {
         className="w-full mt-5 flex flex-col items-center justify-between select-none p-4 mb-5"
       >
         <div className="flex flex-col items-center justify-center gap-4">
-          <CustomLabel className="text-[#DAC5A7] font-display text-6xl flex items-center justify-center gap-2">
-            My Technologies
+          <CustomLabel className="text-[#DAC5A7] font-display text-4xl flex items-center text-center justify-center gap-2 uppercase">
+            <Cover className="text-[#DAC5A7]">My Technologies</Cover>
           </CustomLabel>
-          <CustomLabel className="text-[#DAC5A7] font-display text-xs text-center">
+          <CustomLabel className="text-[#DAC5A7] font-display text-xs text-center md:w-[50%] z-1">
             I'm proficient in React JS, Next JS, Node JS, Express JS, MongoDB,
             Electron JS, and TypeScript for web and mobile app development, with
             a strong interest in IoT and cybersecurity.
           </CustomLabel>
         </div>
-        <div className="w-full">
+        <div className="w-full flex items-center justify-center mt-10">
           <PortfolioMyTechnologySectionPageTemplate
             data={props.userData.userSkills as TUserSkillsType[]}
           />
@@ -158,16 +159,16 @@ const PortfolioPageLayout = ({ ...props }: props) => {
         className="w-full mt-5 flex flex-col items-center justify-between select-none p-4 mb-5"
       >
         <div className="flex flex-col items-center justify-center gap-4">
-          <CustomLabel className="text-[#DAC5A7] font-display text-6xl flex items-center justify-center gap-2">
-            Services & Work
+          <CustomLabel className="text-[#DAC5A7] font-display text-4xl flex items-center justify-center gap-2 uppercase text-center">
+            <Cover className="text-[#DAC5A7]">Services & Work</Cover>
           </CustomLabel>
-          <CustomLabel className="text-[#DAC5A7] font-display text-xs text-center">
+          <CustomLabel className="text-[#DAC5A7] font-display text-xs text-center md:w-[50%]">
             I'm proficient in React JS, Next JS, Node JS, Express JS, MongoDB,
             Electron JS, and TypeScript for web and mobile app development, with
             a strong interest in IoT and cybersecurity.
           </CustomLabel>
         </div>
-        <div className="w-full">
+        <div className="w-full mt-5">
           <PortfolioServicesWorkSectionPageTemplate
             data={props.userData.userServicesWork as TUserServicesWorkType[]}
           />
@@ -235,25 +236,13 @@ const PortfolioPageLayout = ({ ...props }: props) => {
         id="contacts"
         className="w-full mt-5 flex flex-col items-center justify-between select-none p-4 mb-5"
       >
-        <div className="flex flex-col items-center justify-center gap-4">
-          <CustomLabel className="text-[#DAC5A7] font-display text-6xl flex items-center justify-center gap-2">
-            Contacts
-          </CustomLabel>
-          <CustomLabel className="text-[#DAC5A7] font-display text-xs text-center">
-            I'm proficient in React JS, Next JS, Node JS, Express JS, MongoDB,
-            Electron JS, and TypeScript for web and mobile app development, with
-            a strong interest in IoT and cybersecurity.
-          </CustomLabel>
-        </div>
-        <div className="w-full">
-          <PortfolioMyContactSectionPageTemplate />
-        </div>
+        <PortfolioMyContactSectionPageTemplate />
       </div>
 
       {/* FOOTER */}
       <div
         id="footer"
-        className="w-full mt-5 flex flex-col items-center justify-between select-none p-4 mb-5"
+        className="w-full mt-5 flex flex-col items-center justify-between select-none mb-5"
       >
         <div className="flex flex-col items-center justify-center gap-4">
           <CustomLabel className="text-[#DAC5A7] font-display text-6xl flex items-center justify-center gap-2">
@@ -266,7 +255,7 @@ const PortfolioPageLayout = ({ ...props }: props) => {
           </CustomLabel>
         </div>
         <div className="w-full">
-          <PortfolioMyContactSectionPageTemplate />
+          <PortfolioMyFooterSectionPageTemplate />
         </div>
       </div>
     </div>

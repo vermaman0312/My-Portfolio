@@ -1,9 +1,7 @@
 import React, { useCallback, useState } from "react";
-import { Link } from "react-router-dom";
 import { CustomLabel } from "../../../components/custom-components/custom-label/component";
 import { TUserCertificationsType } from "../../../types/portfolio.type";
 import { imageMap } from "../../../portfolio/all-images";
-import { ArrowDown } from "lucide-react";
 
 type props = {
   data: Array<TUserCertificationsType>;

@@ -141,14 +141,14 @@
       "skillLevel": "Intermediate",
       "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
       "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
-      "skillLogo": "../assets/images/vitejs_logo.png"
+      "skillLogo": "../assets/images/viteJS_logo.png"
     },
     {
       "skillName": "Vue JS",
       "skillLevel": "Intermediate",
       "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
       "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
-      "skillLogo": "../assets/images/vuejs_logo.png"
+      "skillLogo": "../assets/images/vueJS_logo.png"
     },
     {
       "skillName": "Typescript",
@@ -240,7 +240,10 @@
       "type": "Wireframe Design",
       "title": "Building the blueprint for your digital solution",
       "description": "Creating detailed wireframes that provide a visual foundation for your application, helping define the structure and flow before full development.",
-      "icons": [],
+      "icons": [
+        "../assets/images/react_logo.png",
+        "../assets/images/next_logo.png"
+      ],
       "concept": "I begin by understanding your project requirements and audience to develop a wireframe concept that outlines the core structure and flow of the application. These wireframes serve as the blueprint for the design and functionality.",
       "design": "I'll create low-fidelity and high-fidelity wireframes to visually represent the user interface layout, ensuring a smooth user journey and alignment with your business goals. These wireframes will focus on user interaction and content placement without distractions from design elements.",
       "protoType": "Once the wireframe is approved, I can provide an interactive prototype to simulate how the application will function. This helps in gathering feedback on the user experience and making necessary adjustments before moving to the full design phase."
@@ -261,7 +264,10 @@
       "type": "Mobile Application Development",
       "title": "Building innovative mobile experiences",
       "description": "Crafting mobile applications that provide seamless and engaging user experiences, tailored to your audience's needs across platforms.",
-      "icons": [],
+      "icons": [
+        "../assets/images/react_logo.png",
+        "../assets/images/next_logo.png"
+      ],
       "concept": "I start by understanding your target users and business goals to create a mobile app concept that blends user-centric design with functionality. Wireframes will be designed to serve as a blueprint for the app's interface and flow.",
       "design": "I'll design a mobile-friendly, intuitive interface that provides an engaging user experience across all devices. Your app will be tailored to meet your brand’s aesthetic while delivering high functionality.",
       "protoType": "With a functional prototype, you'll be able to interact with your mobile app before development begins, ensuring that its design, usability, and overall experience meet your requirements and delight users."
@@ -270,7 +276,10 @@
       "type": "Desktop Application Development",
       "title": "Building efficient desktop applications",
       "description": "Creating desktop applications that combine performance, user experience, and functionality to meet your business needs.",
-      "icons": [],
+      "icons": [
+        "../assets/images/react_logo.png",
+        "../assets/images/next_logo.png"
+      ],
       "concept": "I begin by understanding your business objectives and the needs of your users, designing a concept that aligns with your goals. Wireframes and mockups are crafted to map out the application's functionality and flow.",
       "design": "I'll design a clean and intuitive interface for your desktop application that enhances user interaction and meets your business’s requirements. The focus will be on usability, efficiency, and a seamless experience.",
       "protoType": "An interactive prototype will be provided, allowing you to explore and test the application's features and user experience before development. This ensures that the final product aligns with your expectations and provides the desired functionality."
@@ -291,7 +300,10 @@
       "type": "Deployment - Frontend/Backend",
       "title": "Deploying application with scalability",
       "description": "Ensuring smooth and efficient deployment for both frontend and backend, creating a robust and scalable live environment for your application.",
-      "icons": [],
+      "icons": [
+        "../assets/images/react_logo.png",
+        "../assets/images/next_logo.png"
+      ],
       "concept": "The frontend will be deployed using modern hosting platforms like Vercel, Netlify, or cloud services. We'll ensure that your UI is optimized for performance, SEO, and accessibility, with automated build pipelines in place.",
       "design": "For the backend, I will handle cloud deployment through platforms like AWS, Google Cloud, or Azure. Docker containers and CI/CD pipelines will be set up to automate updates and manage scaling based on demand.",
       "protoType": "Post-deployment, monitoring tools will be integrated for real-time performance tracking, error reporting, and system alerts to ensure continuous smooth operation."
