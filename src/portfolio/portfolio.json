@@ -158,6 +158,27 @@
       "skillLogo": "../assets/images/typescript_logo.png"
     },
     {
+      "skillName": "Redux",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/typescript_logo.png"
+    },
+    {
+      "skillName": "Redux Toolkit",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/typescript_logo.png"
+    },
+    {
+      "skillName": "Express JS",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/nodejs_logo.png"
+    },
+    {
       "skillName": "Node JS",
       "skillLevel": "Intermediate",
       "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
@@ -172,11 +193,25 @@
       "skillLogo": "../assets/images/mongodb_logo.png"
     },
     {
+      "skillName": "SQL",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/mongodb_logo.png"
+    },
+    {
       "skillName": "Docker",
       "skillLevel": "Beginner",
       "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
       "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
       "skillLogo": "../assets/images/docker_logo.png"
+    },
+    {
+      "skillName": "Figma",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/html5_logo.png"
     },
     {
       "skillName": "HTML5",
@@ -193,7 +228,35 @@
       "skillLogo": "../assets/images/css_logo.png"
     },
     {
+      "skillName": "SCSS",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/css_logo.png"
+    },
+    {
       "skillName": "Tailwind CSS",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/tailwind_logo.png"
+    },
+    {
+      "skillName": "MUI",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/tailwind_logo.png"
+    },
+    {
+      "skillName": "Radix UI",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/tailwind_logo.png"
+    },
+    {
+      "skillName": "ShadCN",
       "skillLevel": "Intermediate",
       "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
       "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
@@ -228,7 +291,7 @@
       "skillLogo": "../assets/images/jira_logo.png"
     },
     {
-      "skillName": "Git",
+      "skillName": "Github",
       "skillLevel": "Intermediate",
       "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
       "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",

@@ -15,7 +15,7 @@ const PortfolioAboutSectionPageTemplate = () => {
       </div>
       <div className="mt-5">
         <CustomLabel className="text-[#DAC5A7] font-display text-xs font-light text-opacity-60 text-center md:w-[50rem]">
-          Aspiring software engineer with a strong passion for MERN (MongoDB,
+          Aspiring software engineer with a strong passion for MERN (MongoDB,.
           Express.js, React.js, Node.js) stack development and cybersecurity
           like ethical hacking. Skilled in building full-stack web applications
           with a focus on user experience and security. Proficient in various
