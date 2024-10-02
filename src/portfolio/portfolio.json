@@ -172,6 +172,13 @@
       "skillLogo": "../assets/images/typescript_logo.png"
     },
     {
+      "skillName": "React Query",
+      "skillLevel": "Intermediate",
+      "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLongDescription": "I am a quick learner and I am always ready to take new challenges.",
+      "skillLogo": "../assets/images/typescript_logo.png"
+    },
+    {
       "skillName": "Express JS",
       "skillLevel": "Intermediate",
       "skillShortDescription": "I am a quick learner and I am always ready to take new challenges.",
