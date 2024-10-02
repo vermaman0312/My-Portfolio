@@ -395,6 +395,23 @@
       ],
       "projectImageURL": ["../assets/verma-social/dashboard.png"],
       "projectLinkURL": []
+    },
+    {
+      "projectName": "Voice Analysis Application",
+      "projectDescription": "This application, developed in React TypeScript, utilizes machine learning models implemented in TensorFlow and ONNX to analyze and compare voice data. Users can upload audio files, and the application analyzes the frequency of the voices, determining if they match. The results include a matching percentage and detailed frequency outputs, providing valuable insights into voice recognition and comparison.",
+      "projectTechnologies": [
+        "Figma",
+        "React JS",
+        "HTML5",
+        "CSS",
+        "Typescript",
+        "Node JS",
+        "ONNX",
+        "Python",
+        "Tensorflow"
+      ],
+      "projectImageURL": ["../assets/verma-social/dashboard.png"],
+      "projectLinkURL": []
     }
   ]
 }

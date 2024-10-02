@@ -2,6 +2,7 @@ import React, { useCallback, useState } from "react";
 import { CustomLabel } from "../../../components/custom-components/custom-label/component";
 import { Button } from "../../../components/ui/button-ui/ui";
 import emailjs from "emailjs-com";
+import CustomToast from "../../../components/ui/toast/toast";
 
 interface formData {
   name: string;
@@ -11,6 +12,8 @@ interface formData {
 }
 
 const PortfolioContactFormPageComponent = () => {
+  const [isToastDisplayed, setIsToastDisplayed] = useState<boolean>(false);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
   const [formData, setFormData] = useState<formData>({
     name: "",
     email: "",
@@ -28,7 +31,7 @@ const PortfolioContactFormPageComponent = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-
+    setIsLoading(true);
     // Replace with your EmailJS user ID and service/template IDs
     const serviceID = "service_cmequjq";
     const templateID = "template_c5wri3h";
@@ -43,11 +46,15 @@ const PortfolioContactFormPageComponent = () => {
       )
       .then(
         (response) => {
-          console.log("Email sent successfully:", response);
-          setFormData({ name: "", email: "", phone: "", message: "" });
+          setIsLoading(false);
+          setIsToastDisplayed(true);
+          setTimeout(() => {
+            setFormData({ name: "", email: "", phone: "", message: "" });
+          }, 3000);
         },
         (error) => {
           console.error("Error sending email:", error);
+          setIsLoading(false);
         }
       );
   };
@@ -105,12 +112,27 @@ const PortfolioContactFormPageComponent = () => {
 
       <div className="w-full flex items-center justify-center">
         <Button
+          disabled={
+            !formData.name ||
+            !formData.email ||
+            !formData.phone ||
+            !formData.message
+          }
           onClick={handleSubmit}
           className="bg-[#DAC5A7] text-black w-32 h-10 font-display"
         >
-          Reach Me
+          {isLoading ? "Sending..." : "Reach Me"}
         </Button>
       </div>
+
+      {isToastDisplayed && (
+        <CustomToast
+          display={isToastDisplayed}
+          setDisplay={setIsToastDisplayed}
+          title={`Hi, ${formData.name}`}
+          description="Your email has been sent successfully. I will get back to you soon."
+        />
+      )}
     </div>
   );
 };
