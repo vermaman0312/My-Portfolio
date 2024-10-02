@@ -22,6 +22,7 @@ import PortfolioMyFooterSectionPageTemplate from "../templates/my-footer-section
 import { CustomLabel } from "../components/custom-components/custom-label/component";
 import { ArrowRight } from "lucide-react";
 import { Cover } from "../components/ui/cover/ui";
+import { useEffect, useRef } from "react";
 
 type props = {
   userData: TUserPortfolioTypeInterface;
@@ -30,6 +31,27 @@ type props = {
 };
 
 const PortfolioPageLayout = ({ ...props }: props) => {
+  const sectionRefs = {
+    about: useRef<HTMLDivElement>(null),
+    testimonial: useRef<HTMLDivElement>(null),
+    technology: useRef<HTMLDivElement>(null),
+    servicesWork: useRef<HTMLDivElement>(null),
+    certification: useRef<HTMLDivElement>(null),
+    experience: useRef<HTMLDivElement>(null),
+    projects: useRef<HTMLDivElement>(null),
+    contacts: useRef<HTMLDivElement>(null),
+    contactme: useRef<HTMLDivElement>(null),
+  };
+  useEffect(() => {
+    const section = sectionRefs[props.menuOption as keyof typeof sectionRefs];
+    if (section && section.current) {
+      section.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  }, [props.menuOption]);
+
   return (
     <div className="w-full h-full scroll-container">
       {/* HEADER */}
@@ -68,6 +90,7 @@ const PortfolioPageLayout = ({ ...props }: props) => {
       {/* ABOUT */}
       <div
         id="about"
+        ref={sectionRefs.about}
         className="w-full mt-5 flex items-center justify-center select-none p-4"
       >
         <PortfolioAboutSectionPageTemplate />
@@ -96,6 +119,7 @@ const PortfolioPageLayout = ({ ...props }: props) => {
       {/* MY TECHNOLOGIES */}
       <div
         id="technology"
+        ref={sectionRefs.technology}
         className="w-full mt-5 flex flex-col items-center justify-between select-none p-4 mb-5"
       >
         <div className="flex flex-col items-center justify-center gap-4">
@@ -118,6 +142,7 @@ const PortfolioPageLayout = ({ ...props }: props) => {
       {/* SERVICES & WORK */}
       <div
         id="servicesWork"
+        ref={sectionRefs.servicesWork}
         className="w-full mt-5 flex flex-col items-center justify-between select-none p-4 mb-5"
       >
         <div className="flex flex-col items-center justify-center gap-4">
@@ -140,6 +165,7 @@ const PortfolioPageLayout = ({ ...props }: props) => {
       {/* CERTIFICATION */}
       <div
         id="certification"
+        ref={sectionRefs.certification}
         className="w-full mt-5 flex flex-col items-center justify-between select-none p-4 mb-5"
       >
         <PortfolioMyCertificationSectionPageTemplate
@@ -150,6 +176,7 @@ const PortfolioPageLayout = ({ ...props }: props) => {
       {/* EXPERIENCE */}
       <div
         id="experience"
+        ref={sectionRefs.experience}
         className="w-full mt-5 flex flex-col items-center justify-between select-none p-4 mb-5"
       >
         <div className="flex flex-col items-center justify-center gap-4">
@@ -174,6 +201,7 @@ const PortfolioPageLayout = ({ ...props }: props) => {
       {/* PROJECTS */}
       <div
         id="projects"
+        ref={sectionRefs.projects}
         className="w-full mt-5 flex flex-col items-center justify-between select-none p-4 mb-5"
       >
         <div className="flex flex-col items-center justify-center gap-2">
@@ -196,6 +224,7 @@ const PortfolioPageLayout = ({ ...props }: props) => {
       {/* CONTACT */}
       <div
         id="contacts"
+        ref={sectionRefs.contacts}
         className="w-full mt-5 flex flex-col items-center justify-between select-none p-4 mb-5"
       >
         <PortfolioMyContactSectionPageTemplate />
@@ -204,6 +233,7 @@ const PortfolioPageLayout = ({ ...props }: props) => {
       {/* FOOTER */}
       <div
         id="footer"
+        ref={sectionRefs.contactme}
         className="w-full mt-5 flex flex-col items-center justify-between select-none mb-5"
       >
         <PortfolioMyFooterSectionPageTemplate />

@@ -1,5 +1,5 @@
 import { MoveUpRight } from "lucide-react";
-import React from "react";
+import React, { useState } from "react";
 
 type props = {
   title?: string;
@@ -8,6 +8,21 @@ type props = {
 };
 
 const PortfolioContactMainBodyPageComponent = ({ ...props }: props) => {
+  const [buttonText, setButtonText] = useState<string>("Get in touch");
+
+  const handleClick = () => {
+    navigator.clipboard
+      .writeText("verma.kittu500@gmail.com")
+      .then(() => {
+        setButtonText("Email Copied");
+        setTimeout(() => {
+          setButtonText("Get in touch");
+        }, 2000);
+        window.location.href = `mailto:${"verma.kittu500@gmail.com"}`;
+      })
+      .catch((err) => console.error("Failed to copy: ", err));
+  };
+
   return (
     <div className="w-full flex items-center justify-center flex-col gap-4 md:p-16 p-4">
       <p className="text-xs font-display text-[#DAC5A7] uppercase font-light text-center">
@@ -19,11 +34,11 @@ const PortfolioContactMainBodyPageComponent = ({ ...props }: props) => {
       <p className="text-xs font-display text-[#DAC5A7] uppercase font-light text-center">
         {props.description}
       </p>
-      <button className="bg-[#DAC5A7] p-2 w-40 h-12 flex items-center justify-center gap-2 rounded-lg font-display">
-        <span>Get in touch</span>
-        <span>
-          <MoveUpRight className="w-5 h-5 text-black" />
-        </span>
+      <button
+        onClick={handleClick}
+        className="bg-[#DAC5A7] p-2 w-40 h-12 flex items-center justify-center gap-2 rounded-lg font-display"
+      >
+        {buttonText}
       </button>
     </div>
   );

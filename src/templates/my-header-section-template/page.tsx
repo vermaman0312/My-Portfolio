@@ -21,7 +21,7 @@ const PortfolioMyHeaderSectionPageTemplate = ({ ...props }: props) => {
 
       <div>
         <CustomButton
-          onClick={() => alert("Button clicked")}
+          onClick={() => props.onClick("contactme")}
           variant="outline"
           size="sm"
           disabled={false}
