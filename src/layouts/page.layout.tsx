@@ -25,6 +25,7 @@ import { Cover } from "../components/ui/cover/ui";
 import { useEffect, useRef } from "react";
 
 type props = {
+  setUserData: (value: TUserPortfolioTypeInterface) => void;
   userData: TUserPortfolioTypeInterface;
   setMenuOption: (value: string) => void;
   menuOption: string;
@@ -50,6 +51,7 @@ const PortfolioPageLayout = ({ ...props }: props) => {
         block: "start",
       });
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [props.menuOption]);
 
   return (

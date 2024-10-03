@@ -11,6 +11,7 @@ const PortfolioPage = () => {
     <div className="w-screen h-screen">
       <PortfolioPageLayout
         userData={userData}
+        setUserData={setUserData}
         setMenuOption={setMenuOption}
         menuOption={menuOption}
       />
