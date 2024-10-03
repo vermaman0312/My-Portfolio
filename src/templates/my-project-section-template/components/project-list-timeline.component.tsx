@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { TUserProjectsType } from "../../../types/portfolio.type";
 import { imageMap } from "../../../portfolio/all-images";
+import { Button } from "../../../components/ui/button-ui/ui";
 
 export const PortfolioProjectListTimeLinePageComponent = ({
   data,
@@ -12,6 +13,9 @@ export const PortfolioProjectListTimeLinePageComponent = ({
   const ref = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState(0);
+  const [showMore, setShowMore] = useState<boolean>(false);
+
+  const sliceData = showMore ? data : data.slice(0, 3);
 
   useEffect(() => {
     if (ref.current) {
@@ -34,7 +38,7 @@ export const PortfolioProjectListTimeLinePageComponent = ({
       ref={containerRef}
     >
       <div ref={ref} className="w-full relative max-w-7xl mx-auto pb-20">
-        {data.map((item, index) => (
+        {sliceData.map((item, index) => (
           <div
             key={index}
             className="w-full flex justify-start pt-10 md:pt-40 md:gap-10"
@@ -133,6 +137,17 @@ export const PortfolioProjectListTimeLinePageComponent = ({
           />
         </div>
       </div>
+
+      {data.length > 3 && (
+        <div className="w-full p-2 flex items-center justify-center">
+          <Button
+            onClick={() => setShowMore((prev) => !prev)}
+            className="text-xs font-display text-[#DAC5A7] border-2 border-[#DAC5A7] border-opacity-60"
+          >
+            {showMore ? "View Less" : "View More"}
+          </Button>
+        </div>
+      )}
     </div>
   );
 };
