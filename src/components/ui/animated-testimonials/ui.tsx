@@ -1,4 +1,3 @@
-import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useCallback, useEffect, useState } from "react";
 import { TUserCertificationsType } from "../../../types/portfolio.type";
