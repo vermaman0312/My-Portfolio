@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from "../../components/ui/button-ui/ui";
 import { CustomLabel } from "../../components/custom-components/custom-label/component";
 
@@ -24,25 +23,57 @@ const PortfolioMyFooterSectionPageTemplate = () => {
             style={{ fontSize: "25px", color: "#DAC5A7" }}
           ></i>
         </Button>
-        <Button className="border-2 border-[#DAC5A7] border-opacity-40 text-[#DAC5A7] text-opacity-60 w-10 h-10">
+        <Button
+          onClick={() => {
+            window.open(
+              `https://www.linkedin.com/in/aman-verma-198472219`,
+              "_blank"
+            );
+          }}
+          className="border-2 border-[#DAC5A7] border-opacity-40 text-[#DAC5A7] text-opacity-60 w-10 h-10"
+        >
           <i
             className="fa fa-linkedin text-opacity-60"
             style={{ fontSize: "25px", color: "#DAC5A7" }}
           ></i>
         </Button>
-        <Button className="border-2 border-[#DAC5A7] border-opacity-40 text-[#DAC5A7] text-opacity-60 w-10 h-10">
+        <Button
+          onClick={() =>
+            window.open(
+              `https://www.instagram.com/verma.kittu17/profilecard/?igsh=emNndWtsbW9hNXRt`,
+              "_blank"
+            )
+          }
+          className="border-2 border-[#DAC5A7] border-opacity-40 text-[#DAC5A7] text-opacity-60 w-10 h-10"
+        >
           <i
             className="fa fa-instagram text-opacity-60"
             style={{ fontSize: "25px", color: "#DAC5A7" }}
           ></i>
         </Button>
-        <Button className="border-2 border-[#DAC5A7] border-opacity-40 text-[#DAC5A7] text-opacity-60 w-10 h-10">
+        <Button
+          onClick={() => {
+            window.open(
+              `https://www.facebook.com/profile.php?id=100005400188000&mibextid=ZbWKwL`,
+              "_blank"
+            );
+          }}
+          className="border-2 border-[#DAC5A7] border-opacity-40 text-[#DAC5A7] text-opacity-60 w-10 h-10"
+        >
           <i
             className="fa fa-facebook text-opacity-60"
             style={{ fontSize: "25px", color: "#DAC5A7" }}
           ></i>
         </Button>
-        <Button className="border-2 border-[#DAC5A7] border-opacity-40 text-[#DAC5A7] text-opacity-60 w-10 h-10">
+        <Button
+          onClick={() =>
+            window.open(
+              `https://x.com/vermaman0312?t=bXVNApVWZp_v4bgy9DLMPQ&s=09`,
+              "_blank"
+            )
+          }
+          className="border-2 border-[#DAC5A7] border-opacity-40 text-[#DAC5A7] text-opacity-60 w-10 h-10"
+        >
           <i
             className="fa fa-twitter text-opacity-60"
             style={{ fontSize: "25px", color: "#DAC5A7" }}

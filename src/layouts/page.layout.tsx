@@ -71,7 +71,9 @@ const PortfolioPageLayout = ({ ...props }: props) => {
 
       {/* INTRODUCTION */}
       <BackgroundBeamsWithCollision className="w-full h-full mt-5">
-        <PortfolioMyIntroductionSectionPageTemplate />
+        <PortfolioMyIntroductionSectionPageTemplate
+          onClickBookMeeting={() => props.setMenuOption("contactme")}
+        />
       </BackgroundBeamsWithCollision>
 
       {/* SCROLL COMPONENT */}

@@ -23,7 +23,11 @@ const words = [
   },
 ];
 
-const PortfolioMyIntroductionSectionPageTemplate = () => {
+type props = {
+  onClickBookMeeting?: () => void;
+};
+
+const PortfolioMyIntroductionSectionPageTemplate = ({ ...props }: props) => {
   const [isDownloading, setIsDownloading] = useState<boolean>(false);
   const handleDownloadResume = useCallback(() => {
     setIsDownloading(true);
@@ -34,6 +38,10 @@ const PortfolioMyIntroductionSectionPageTemplate = () => {
       },
       {
         name: "Aman_Resume_Engineer",
+        fileName: Aman_Resume_Engineer as string,
+      },
+      {
+        name: "Aman_Personal_Resume_Engineer",
         fileName: Aman_Resume_Engineer as string,
       },
     ];
@@ -68,7 +76,10 @@ const PortfolioMyIntroductionSectionPageTemplate = () => {
         </div>
       </div>
       <div className="mt-3 p-4 flex items-center flex-wrap justify-center gap-4">
-        <CustomButton className="bg-[#DAC5A7] bg-opacity-10 border-2 border-[#DAC5A7] border-opacity-15 p-2 rounded-lg text-xs font-display text-[#DAC5A7] w-40">
+        <CustomButton
+          onClick={props.onClickBookMeeting}
+          className="bg-[#DAC5A7] bg-opacity-10 border-2 border-[#DAC5A7] border-opacity-15 p-2 rounded-lg text-xs font-display text-[#DAC5A7] w-40"
+        >
           Book meeting
         </CustomButton>
         <CustomButton
