@@ -76,21 +76,6 @@ const PortfolioPageLayout = ({ ...props }: props) => {
         />
       </BackgroundBeamsWithCollision>
 
-      {/* SCROLL COMPONENT */}
-      <div
-        id="scroll"
-        className={`hidden md:flex w-full md:mt-16 items-center justify-center p-10 select-none`}
-      >
-        <div style={{ transform: "rotate(90deg)" }}>
-          <CustomLabel className="text-[#DAC5A7] font-display text-xs flex items-center justify-center gap-2">
-            <span>Scroll down</span>
-            <span>
-              <ArrowRight className="w-4 h-4" />
-            </span>
-          </CustomLabel>
-        </div>
-      </div>
-
       {/* ABOUT */}
       <div
         id="about"
