@@ -78,7 +78,9 @@ const PortfolioContactFormPageComponent = () => {
         />
       </div>
       <div className="w-full md:w-[60%]">
-        <CustomLabel className="font-display">Email address:</CustomLabel>
+        <CustomLabel className="font-display text-[#DAC5A7]">
+          Email address:
+        </CustomLabel>
         <input
           type="text"
           name="email"
@@ -89,7 +91,9 @@ const PortfolioContactFormPageComponent = () => {
         />
       </div>
       <div className="w-full md:w-[60%]">
-        <CustomLabel className="font-display">Contact No:</CustomLabel>
+        <CustomLabel className="font-display text-[#DAC5A7]">
+          Contact No:
+        </CustomLabel>
         <input
           type="text"
           name="phone"
@@ -100,7 +104,9 @@ const PortfolioContactFormPageComponent = () => {
         />
       </div>
       <div className="w-full md:w-[60%]">
-        <CustomLabel className="font-display">Message:</CustomLabel>
+        <CustomLabel className="font-display text-[#DAC5A7]">
+          Message:
+        </CustomLabel>
         <textarea
           placeholder="write a message..."
           name="message"
