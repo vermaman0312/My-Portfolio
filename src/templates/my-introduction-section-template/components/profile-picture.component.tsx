@@ -58,7 +58,7 @@ const ProfilePictureComponent = ({ ...props }: props) => {
           })}
         </div>
       </div>
-      <div className="-mt-28 ml-5 z-40">
+      <div className="-mt-16 ml-5 z-40">
         <img src={props.image} alt="" className="w-full h-full" />
       </div>
     </div>

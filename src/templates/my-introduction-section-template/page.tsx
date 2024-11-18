@@ -1,6 +1,6 @@
 import { useCallback, useState } from "react";
 import ProfilePictureComponent from "./components/profile-picture.component";
-import redux_logo from "../../assets/images/redux_logo.png";
+import profile_image from "../../assets/profile/pro-1.png";
 import { TypewriterEffectSmooth } from "../../components/ui/typewriter-effect/typewriter-effect";
 import { CustomLabel } from "../../components/custom-components/custom-label/component";
 import CustomButton from "../../components/custom-components/custom-button/component";
@@ -54,7 +54,7 @@ const PortfolioMyIntroductionSectionPageTemplate = () => {
   return (
     <div className="w-full h-full flex flex-col items-center justify-start p-6 gap-4">
       <div className="">
-        <ProfilePictureComponent image={redux_logo} />
+        <ProfilePictureComponent image={profile_image} />
       </div>
       <div className="flex items-center justify-center">
         <div>
