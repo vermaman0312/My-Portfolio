@@ -52,11 +52,13 @@ export const HoverEffect = ({
               <CardTitle className="text-xs font-display font-normal">
                 {item.companyName}
               </CardTitle>
-              <img
-                src={imageMap[item.companyLogo as keyof typeof imageMap]}
-                alt=""
-                className="w-6 h-6"
-              />
+              {item.companyLogo && (
+                <img
+                  src={imageMap[item.companyLogo as keyof typeof imageMap]}
+                  alt=""
+                  className="w-6 h-6"
+                />
+              )}
             </div>
             <CardTitle className="text-md font-display font-normal pl-4">
               {item.designation}
@@ -64,7 +66,7 @@ export const HoverEffect = ({
             <CardDescription className="text-xs font-display font-normal pl-4 mt-1">
               {item.companyDescription}
             </CardDescription>
-            <CardTitle className="text-xs font-display font-normal pl-4 mt-3">
+            <CardTitle className="text-xs font-display font-normal pl-4 mt-3 mb-5">
               {`${item.yearOfJoining} to ${item.yearOfLeaving}`}
             </CardTitle>
           </Card>
