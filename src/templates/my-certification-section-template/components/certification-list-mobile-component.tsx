@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback } from "react";
 import {
   Carousel,
   CarouselContent,
@@ -19,6 +19,16 @@ const PortfolioCertificationListMobilePageComponent = ({ ...props }: props) => {
   const plugin = React.useRef(
     Autoplay({ delay: 2000, stopOnInteraction: true })
   );
+
+  const handleDownloadCertificate = useCallback((file: string) => {
+    console.log(file);
+    const image = imageMap[file as keyof typeof imageMap];
+    const anchor = document.createElement("a");
+    anchor.href = image;
+    anchor.download = file;
+    anchor.click();
+  }, []);
+
   return (
     <Carousel
       opts={{
@@ -40,26 +50,15 @@ const PortfolioCertificationListMobilePageComponent = ({ ...props }: props) => {
                     <img
                       src={
                         imageMap[
-                          item.certificationImage as keyof typeof imageMap
+                          item.certificationLogo as keyof typeof imageMap
                         ]
                       }
                       alt={item.certificationName as string}
-                      className="w-8 h-8 object-cover"
+                      className="w-8 h-8 object-fit"
                     />
                     <CustomLabel className="text-xl text-[#DAC5A7] font-semibold font-display text-center">
                       {item.certificationName}
                     </CustomLabel>
-                  </div>
-                  <div>
-                    <img
-                      src={
-                        imageMap[
-                          item.certificationImage as keyof typeof imageMap
-                        ]
-                      }
-                      alt={item.certificationName as string}
-                      className="w-8 h-8 object-cover"
-                    />
                   </div>
                 </div>
                 <div className="mt-5">
@@ -68,7 +67,14 @@ const PortfolioCertificationListMobilePageComponent = ({ ...props }: props) => {
                   </CustomLabel>
                 </div>
                 <div className="w-full flex items-center justify-end gap-2 mt-5">
-                  <button className="text-xs text-[#DAC5A7] font-display p-2">
+                  <button
+                    onClick={() =>
+                      handleDownloadCertificate(
+                        item.certificationImage as string
+                      )
+                    }
+                    className="text-xs text-[#DAC5A7] font-display p-2"
+                  >
                     View Certificate
                   </button>
                 </div>
@@ -85,9 +91,7 @@ const PortfolioCertificationListMobilePageComponent = ({ ...props }: props) => {
           </CarouselItem>
         ))}
       </CarouselContent>
-
       <CarouselPrevious className="text-[#DAC5A7] border-none w-6 h-6" />
-
       <CarouselNext className="text-[#DAC5A7] border-none w-6 h-6" />
     </Carousel>
   );

@@ -64,30 +64,120 @@
   ],
   "userCertifications": [
     {
-      "certificationName": "Ethical Hacking Masterclass",
-      "certificationDescription": "Ethical Hacking Masterclass Certification. Ethical Hacking Masterclass Certification. Ethical Hacking Masterclass Certification",
-      "certificationAuthority": "Infosys Springboard",
-      "certificationDate": "03/12/1998",
-      "certificationLogo": "",
-      "certificationImage": "../assets/images/kalilinux_logo.png",
+      "certificationName": "CCNAv7: Introduction to Networks",
+      "certificationDescription": "CCNAv7: Introduction to Networks covers basic networking concepts, IP addressing, and device configuration for small to medium networks.",
+      "certificationAuthority": "CISCO",
+      "certificationDate": "10/01/2023",
+      "certificationLogo": "../assets/organization-logo/cisco.png",
+      "certificationImage": "../assets/certificates/ccnav7_introduction.jpg",
       "certificationBadge": ""
     },
     {
-      "certificationName": "Digital Forensic",
-      "certificationDescription": "Digital Forensic Certification.Digital Forensic Certification. Digital Forensic Certification",
-      "certificationAuthority": "Infosys Springboard",
-      "certificationDate": "03/12/1998",
-      "certificationLogo": "",
-      "certificationImage": "../assets/images/kalilinux_logo.png",
+      "certificationName": "CCNAv7: Switching, Routing and Wireless Essentials",
+      "certificationDescription": "CCNAv7: Switching, Routing, and Wireless Essentials focuses on VLANs, routing protocols, wireless networks, and basic device security for small to medium-sized networks.",
+      "certificationAuthority": "CISCO",
+      "certificationDate": "28/02/2023",
+      "certificationLogo": "../assets/organization-logo/cisco.png",
+      "certificationImage": "../assets/certificates/ccnav7_switching.jpg",
+      "certificationBadge": ""
+    },
+    {
+      "certificationName": "CCNAv7:Entriprise Netowrking, Security and Automation",
+      "certificationDescription": "CCNAv7: Enterprise Networking, Security, and Automation covers advanced routing, network security, automation, and managing enterprise-scale networks.",
+      "certificationAuthority": "CISCO",
+      "certificationDate": "08/06/2023",
+      "certificationLogo": "../assets/organization-logo/cisco.png",
+      "certificationImage": "../assets/certificates/ccnav7_enterprise.jpg",
+      "certificationBadge": ""
+    },
+    {
+      "certificationName": "Introduction to Cybersecurity",
+      "certificationDescription": "Introduction to Cybersecurity by Cisco provides a basic understanding of cybersecurity concepts, threats, and how to protect networks and data.",
+      "certificationAuthority": "CISCO",
+      "certificationDate": "27/01/2022",
+      "certificationLogo": "../assets/organization-logo/cisco.png",
+      "certificationImage": "../assets/certificates/introduction_cyber.jpg",
       "certificationBadge": ""
     },
     {
       "certificationName": "Ethical Hacking Masterclass",
-      "certificationDescription": "Ethical Hacking Masterclass Certification. Ethical Hacking Masterclass Certification. Ethical Hacking Masterclass Certification",
+      "certificationDescription": "Ethical Hacking Masterclass teaches techniques to identify and secure system vulnerabilities ethically.",
       "certificationAuthority": "Infosys Springboard",
-      "certificationDate": "03/12/1998",
-      "certificationLogo": "",
-      "certificationImage": "../assets/images/kalilinux_logo.png",
+      "certificationDate": "30/04/2023",
+      "certificationLogo": "../assets/organization-logo/infosys.png",
+      "certificationImage": "../assets/certificates/ccnav7_enterprise.jpg",
+      "certificationBadge": ""
+    },
+    {
+      "certificationName": "Digital Forensics with Kali Linux",
+      "certificationDescription": "Digital Forensics with Kali Linux from Infosys Springboard teaches techniques for investigating cybercrimes and analyzing digital evidence using Kali Linux tools.",
+      "certificationAuthority": "Infosys Springboard",
+      "certificationDate": "27/05/2023",
+      "certificationLogo": "../assets/organization-logo/infosys.png",
+      "certificationImage": "../assets/certificates/digital_forensic.jpg",
+      "certificationBadge": ""
+    },
+    {
+      "certificationName": "Azure Devops",
+      "certificationDescription": "Azure DevOps from Infosys Springboard focuses on using Azure tools for managing CI/CD and development workflows.",
+      "certificationAuthority": "Infosys Springboard",
+      "certificationDate": "24/07/2024",
+      "certificationLogo": "../assets/organization-logo/infosys.png",
+      "certificationImage": "../assets/certificates/azure_devops.jpg",
+      "certificationBadge": ""
+    },
+    {
+      "certificationName": "Developing web application using ASP.NET Core MVC",
+      "certificationDescription": "Developing Web Applications using ASP.NET Core MVC teaches how to build dynamic, data-driven web applications using the Model-View-Controller (MVC) architecture in ASP.NET Core.",
+      "certificationAuthority": "Infosys Springboard",
+      "certificationDate": "12/02/2023",
+      "certificationLogo": "../assets/organization-logo/infosys.png",
+      "certificationImage": "../assets/certificates/asp_dotnet_core_mvc.jpg",
+      "certificationBadge": ""
+    },
+    {
+      "certificationName": "Essentials of Cloud Computing",
+      "certificationDescription": "Essentials of Cloud Computing covers the fundamental concepts, models, and technologies of cloud computing, including cloud service types and deployment models.",
+      "certificationAuthority": "Infosys Springboard",
+      "certificationDate": "12/01/2023",
+      "certificationLogo": "../assets/organization-logo/infosys.png",
+      "certificationImage": "../assets/certificates/cloud_computing.jpg",
+      "certificationBadge": ""
+    },
+    {
+      "certificationName": "Securing Applications on the Cloud",
+      "certificationDescription": "Securing Applications on the Cloud focuses on best practices and strategies for protecting cloud-based applications from security threats and ensuring data privacy and compliance.",
+      "certificationAuthority": "Infosys Springboard",
+      "certificationDate": "14/03/2023",
+      "certificationLogo": "../assets/organization-logo/infosys.png",
+      "certificationImage": "../assets/certificates/securing_application_cloud.jpg",
+      "certificationBadge": ""
+    },
+    {
+      "certificationName": "Java Programming Fundamentals",
+      "certificationDescription": "Java Programming Fundamentals covers the basics of Java, including syntax, data types, control structures, object-oriented programming concepts, and basic error handling.",
+      "certificationAuthority": "Infosys Springboard",
+      "certificationDate": "31/03/2022",
+      "certificationLogo": "../assets/organization-logo/infosys.png",
+      "certificationImage": "../assets/certificates/java_programming.jpg",
+      "certificationBadge": ""
+    },
+    {
+      "certificationName": "Java Language Features",
+      "certificationDescription": "Java Language Features covers key aspects of Java programming, including object-oriented principles, syntax, data types, control structures, exception handling, and Java APIs.",
+      "certificationAuthority": "Infosys Springboard",
+      "certificationDate": "31/03/2022",
+      "certificationLogo": "../assets/organization-logo/infosys.png",
+      "certificationImage": "../assets/certificates/java_language_features.jpg",
+      "certificationBadge": ""
+    },
+    {
+      "certificationName": "Java SE 8 Features",
+      "certificationDescription": "Java SE 8 Features introduces key enhancements like lambdas, the Stream API, default methods in interfaces, and the new date and time API, improving code readability, efficiency, and functionality.",
+      "certificationAuthority": "Infosys Springboard",
+      "certificationDate": "31/03/2022",
+      "certificationLogo": "../assets/organization-logo/infosys.png",
+      "certificationImage": "../assets/certificates/java_se8_features.jpg",
       "certificationBadge": ""
     }
   ],

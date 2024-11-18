@@ -15,13 +15,13 @@ export type TUserEducationType = {
 };
 
 export type TUserCertificationsType = {
-  certificationName: string | null;
-  certificationDescription: string | null;
-  certificationAuthority: string | null;
-  certificationDate: string | null;
-  certificationLogo: string | null;
-  certificationImage: string | null;
-  certificationBadge: string | null;
+  certificationName: string;
+  certificationDescription: string;
+  certificationAuthority: string;
+  certificationDate: string;
+  certificationLogo: string;
+  certificationImage: string;
+  certificationBadge: string;
 };
 
 export type TUserWorkExperienceType = {

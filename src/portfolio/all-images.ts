@@ -2,6 +2,8 @@
 import Versadashboard from "../assets/verma-social/dashboard.png";
 // Organization Logo
 import gatewayLogo from "../assets/organization-logo/gateway.png";
+import cisco from "../assets/organization-logo/cisco.png";
+import infosys from "../assets/organization-logo/infosys.png";
 // Technologies Images
 import react_logo from "../assets/images/react_logo.png";
 import next_logo from "../assets/images/next_logo.png";
@@ -19,6 +21,20 @@ import python_logo from "../assets/images/python_logo.png";
 import jira_logo from "../assets/images/jira_logo.png";
 import gtihub_logo from "../assets/images/gtihub_logo.png";
 import kalilinux_logo from "../assets/images/kalilinux_logo.png";
+// Certificates images
+import asp_dotnet_core_mvc from "../assets/certificates/asp_dotnet_core_mvc.jpg";
+import azure_devops from "../assets/certificates/azure_devops.jpg";
+import ccnav7_enterprise from "../assets/certificates/ccnav7_enterprise.jpg";
+import ccnav7_switching from "../assets/certificates/ccnav7_switching.jpg";
+import ccnav7_introduction from "../assets/certificates/ccnav7_introduction.jpg";
+import cloud_computing from "../assets/certificates/cloud_computing.jpg";
+import digital_forensic from "../assets/certificates/digital_forensic.jpg";
+import ethical_hacking_masterclass from "../assets/certificates/ethical_hacking_masterclass.jpg";
+import introduction_cyber from "../assets/certificates/introduction_cyber.jpg";
+import java_language_features from "../assets/certificates/java_language_features.jpg";
+import java_programming from "../assets/certificates/java_programming.jpg";
+import javase8_feature from "../assets/certificates/java_se8_features.jpg";
+import securing_application_cloud from "../assets/certificates/securing_application_cloud.jpg";
 
 export const imageMap = {
   // Project Images
@@ -26,8 +42,26 @@ export const imageMap = {
   "../assets/verma-social/dashboard.png": Versadashboard,
 
   // Organization Logo
-  // Gateway Group of Companies images
   "../assets/organization-logo/gateway.png": gatewayLogo,
+  "../assets/organization-logo/cisco.png": cisco,
+  "../assets/organization-logo/infosys.png": infosys,
+
+  // Certificates image
+  "../assets/certificates/asp_dotnet_core_mvc.jpg": asp_dotnet_core_mvc,
+  "../assets/certificates/azure_devops.jpg": azure_devops,
+  "../assets/certificates/ccnav7_enterprise.jpg": ccnav7_enterprise,
+  "../assets/certificates/ccnav7_switching.jpg": ccnav7_switching,
+  "../assets/certificates/ccnav7_introduction.jpg": ccnav7_introduction,
+  "../assets/certificates/cloud_computing.jpg": cloud_computing,
+  "../assets/certificates/digital_forensic.jpg": digital_forensic,
+  "../assets/certificates/ethical_hacking_masterclass.jpg":
+    ethical_hacking_masterclass,
+  "../assets/certificates/introduction_cyber.jpg": introduction_cyber,
+  "../assets/certificates/java_language_features.jpg": java_language_features,
+  "../assets/certificates/java_programming.jpg": java_programming,
+  "../assets/certificates/java_se8_features.jpg": javase8_feature,
+  "../assets/certificates/securing_application_cloud.jpg":
+    securing_application_cloud,
 
   // Technologies Images
   "../assets/images/react_logo.png": react_logo,
