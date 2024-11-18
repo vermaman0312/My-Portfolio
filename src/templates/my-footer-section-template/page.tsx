@@ -6,23 +6,47 @@ const PortfolioMyFooterSectionPageTemplate = () => {
   return (
     <div className="w-full p-4 flex flex-wrap items-center justify-around gap-8">
       <div className="flex items-center justify-center gap-2">
-        <Button className="border-2 border-[#DAC5A7] border-opacity-40 text-[#DAC5A7] text-opacity-60 w-10 h-10">
-          W
+        <Button
+          onClick={() => {
+            const phoneNumber = "+916205240414";
+            const message = "Hi there! How are you? can we take sohrt huddle?";
+            window.open(
+              `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+                message
+              )}`,
+              "_blank"
+            );
+          }}
+          className="border-2 border-[#DAC5A7] border-opacity-40 text-[#DAC5A7] text-opacity-60 w-10 h-10"
+        >
+          <i
+            className="fa fa-whatsapp text-opacity-60"
+            style={{ fontSize: "25px", color: "#DAC5A7" }}
+          ></i>
         </Button>
         <Button className="border-2 border-[#DAC5A7] border-opacity-40 text-[#DAC5A7] text-opacity-60 w-10 h-10">
-          L
+          <i
+            className="fa fa-linkedin text-opacity-60"
+            style={{ fontSize: "25px", color: "#DAC5A7" }}
+          ></i>
         </Button>
         <Button className="border-2 border-[#DAC5A7] border-opacity-40 text-[#DAC5A7] text-opacity-60 w-10 h-10">
-          I
+          <i
+            className="fa fa-instagram text-opacity-60"
+            style={{ fontSize: "25px", color: "#DAC5A7" }}
+          ></i>
         </Button>
         <Button className="border-2 border-[#DAC5A7] border-opacity-40 text-[#DAC5A7] text-opacity-60 w-10 h-10">
-          D
+          <i
+            className="fa fa-facebook text-opacity-60"
+            style={{ fontSize: "25px", color: "#DAC5A7" }}
+          ></i>
         </Button>
         <Button className="border-2 border-[#DAC5A7] border-opacity-40 text-[#DAC5A7] text-opacity-60 w-10 h-10">
-          G
-        </Button>
-        <Button className="border-2 border-[#DAC5A7] border-opacity-40 text-[#DAC5A7] text-opacity-60 w-10 h-10">
-          T
+          <i
+            className="fa fa-twitter text-opacity-60"
+            style={{ fontSize: "25px", color: "#DAC5A7" }}
+          ></i>
         </Button>
       </div>
       <div>
