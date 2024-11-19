@@ -8,12 +8,12 @@ type props = {
 
 const PortfolioMyHeaderSectionPageTemplate = ({ ...props }: props) => {
   return (
-    <div className="p-3 border-2 border-[#DAC5A7] border-opacity-15 bg-[#DAC5A7] bg-opacity-5 flex flex-wrap items-center justify-center rounded-lg gap-6">
+    <div className="p-3 border-2 border-[#DAC5A7] border-opacity-15 bg-[#DAC5A7] bg-opacity-5 flex flex-wrap items-center justify-center rounded-lg gap-6 z-50">
       <div className="flex items-center justify-center">
         <p className="text-lg text-[#DAC5A7] font-display">{props.title}</p>
       </div>
 
-      <div>
+      <div className="z-50">
         <PortfolioMyHeaderSectionMenusPageComponent
           onClick={(value) => props.onClick(value)}
         />

@@ -9,7 +9,7 @@ const PortfolioCertificationDesktopViewPageComponent = ({
   ...props
 }: props) => {
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-full z-10">
       <AnimatedTestimonials testimonials={props.data} />
     </div>
   );
