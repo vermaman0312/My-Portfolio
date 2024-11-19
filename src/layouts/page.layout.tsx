@@ -154,13 +154,39 @@ const PortfolioPageLayout = ({ ...props }: props) => {
       {/* CERTIFICATION */}
       <div
         id="certification"
+        className="w-full mt-5 flex flex-col items-center justify-between select-none p-4 mb-5"
+      >
+        <div className="flex flex-col items-center justify-center gap-4">
+          <CustomLabel className="text-[#DAC5A7] font-display text-4xl flex items-center justify-center gap-2 uppercase text-center">
+            <Cover className="text-[#DAC5A7]">Certifications</Cover>
+          </CustomLabel>
+          <CustomLabel className="text-[#DAC5A7] font-display text-xs text-center md:w-[50%]">
+            Achieving these certifications has been a rewarding milestone in my
+            journey. They not only validate my expertise but also fuel my
+            passion for continuous learning and professional growth. Excited to
+            apply this knowledge to new challenges ahead!
+          </CustomLabel>
+        </div>
+        <div
+          ref={sectionRefs.certification}
+          className="w-full flex items-center justify-center"
+        >
+          <PortfolioMyCertificationSectionPageTemplate
+            data={
+              props.userData.userCertifications as TUserCertificationsType[]
+            }
+          />
+        </div>
+      </div>
+      {/* <div
+        id="certification"
         ref={sectionRefs.certification}
         className="w-full mt-5 flex flex-col items-center justify-between select-none p-4 mb-5"
       >
         <PortfolioMyCertificationSectionPageTemplate
           data={props.userData.userCertifications as TUserCertificationsType[]}
         />
-      </div>
+      </div> */}
 
       {/* EXPERIENCE */}
       <div
