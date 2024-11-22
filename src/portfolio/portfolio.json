@@ -494,8 +494,8 @@
       "projectLinkURL": []
     },
     {
-      "projectName": "Voice Analysis Application",
-      "projectDescription": "This application, developed in React TypeScript, utilizes machine learning models implemented in TensorFlow and ONNX to analyze and compare voice data. Users can upload audio files, and the application analyzes the frequency of the voices, determining if they match. The results include a matching percentage and detailed frequency outputs, providing valuable insights into voice recognition and comparison.",
+      "projectName": "Object Analysis Application",
+      "projectDescription": "The Object Analysis Application is a React TypeScript project that leverages ONNX.js and TensorFlow to enable real-time object detection and analysis using Google’s machine learning models. The application features a user-friendly interface, live camera integration, and accurate object recognition through advanced AI models. Designed with performance and scalability in mind, it supports real-time analysis for use cases like security, retail, and education. Built with modern technologies like WebRTC and Tailwind CSS, it demonstrates cutting-edge AI integration in a responsive and intuitive platform.",
       "projectTechnologies": [
         "Figma",
         "React JS",
@@ -507,15 +507,22 @@
         "Python",
         "Tensorflow"
       ],
-      "projectImageURL": ["../assets/verma-social/dashboard.png"],
-      "projectLinkURL": []
+      "projectImageURL": [
+        "../assets/projects/object-analysis/object_analysis.png"
+      ],
+      "projectLinkURL": [
+        "https://vermaobjectanalysis.vercel.app/",
+        "https://github.com/vermaman0312/Object-Analysis-Application-temp"
+      ]
     },
     {
       "projectName": "Browser Extension",
       "projectDescription": "Developed a browser extension using HTML, CSS, Tailwind CSS, and JavaScript, featuring custom styling and responsive design. It integrates with the browser API to offer dynamic content manipulation, popup notifications, and enhanced user interaction for a seamless browsing experience.",
       "projectTechnologies": ["HTML5", "CSS3", "Tailwind CSS", "Javascript"],
-      "projectImageURL": ["../assets/verma-social/dashboard.png"],
-      "projectLinkURL": []
+      "projectImageURL": ["../assets/projects/browser_extension/extension.png"],
+      "projectLinkURL": [
+        "https://github.com/vermaman0312/Device-Details-Extention-Features"
+      ]
     }
   ]
 }

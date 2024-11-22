@@ -1,5 +1,9 @@
 // Versa SocialMedia images
 import Versadashboard from "../assets/verma-social/dashboard.png";
+// Project Images
+import object_analysis from "../assets/projects/object-analysis/object_analysis.png";
+import extension from "../assets/projects/browser_extension/extension.png";
+
 // Organization Logo
 import gatewayLogo from "../assets/organization-logo/gateway.png";
 import cisco from "../assets/organization-logo/cisco.png";
@@ -38,6 +42,9 @@ import securing_application_cloud from "../assets/certificates/securing_applicat
 
 export const imageMap = {
   // Project Images
+  //Object Analysis Project Images
+  "../assets/projects/object-analysis/object_analysis.png": object_analysis,
+  "../assets/projects/browser_extension/extension.png": extension,
   // Versa SocialMedia images project
   "../assets/verma-social/dashboard.png": Versadashboard,
 
