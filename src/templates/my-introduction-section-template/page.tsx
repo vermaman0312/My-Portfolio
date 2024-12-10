@@ -6,6 +6,7 @@ import { CustomLabel } from "../../components/custom-components/custom-label/com
 import CustomButton from "../../components/custom-components/custom-button/component";
 import Aman_Resume_Associate from "../../assets/pdfs/Aman_Resume_Associate.pdf";
 import Aman_Resume_Engineer from "../../assets/pdfs/Aman_Resume_Engineer.pdf";
+import Aman_Resume from "../../assets/pdfs/Aman verma.pdf";
 
 const words = [
   {
@@ -33,16 +34,8 @@ const PortfolioMyIntroductionSectionPageTemplate = ({ ...props }: props) => {
     setIsDownloading(true);
     const pdfFiles = [
       {
-        name: "Aman_Resume_Associate",
-        fileName: Aman_Resume_Associate as string,
-      },
-      {
-        name: "Aman_Resume_Engineer",
-        fileName: Aman_Resume_Engineer as string,
-      },
-      {
-        name: "Aman_Personal_Resume_Engineer",
-        fileName: Aman_Resume_Engineer as string,
+        name: "Resume",
+        fileName: Aman_Resume as string,
       },
     ];
 
